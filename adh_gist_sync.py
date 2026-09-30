@@ -825,6 +825,8 @@ def cfg_bool(key, default=False):
 
 def http(method, url, headers=None, body=None, timeout=30):
     headers = dict(headers or {})
+    # ⚠️ 必须带 UA：加速站（Cloudflare）对 urllib 默认 UA(`Python-urllib/3.x`) 直接 403
+    headers.setdefault("User-Agent", "dsh-rules-sync/1.0")
     data = None
     if body is not None:
         data = json.dumps(body).encode()
@@ -1288,6 +1290,29 @@ def adh_sync_rules(base, user, pw, add_lines, remove_lines=(), dry_run=False, co
         sys.exit(f"ADH set_rules failed: HTTP {status} {text[:200]}")
     print(f"ADH user_rules: +{len(add)} / -{len(removed)}")
     return add, removed
+
+
+def check_allow_conflicts(path=None):
+    """ADH 清单内自检：手工区的 `@@||d^$important` 放行，与自动区的 `||d^` 拦截是否**同域打架**。
+
+    `$important` 优先 ⇒ 打架时实际生效的是**放行**（2026-10-01 实测：19 条信号族全被自己的放行压住，
+    ADH 其实一条没拦）。故意放行（在 FORCE_DIRECT 里）不算问题。
+    """
+    path = path or os.path.join(HERE, "ops", "adh", "adh-custom.txt")
+    try:
+        lines = [l.strip() for l in open(path, encoding="utf-8") if l.strip() and not l.startswith("!")]
+    except OSError as e:
+        return [f"读不到 {path}: {e}"]
+    allow = {l[4:].split("^")[0]: l for l in lines if l.startswith("@@||")}
+    block = {l[2:].split("^")[0] for l in lines if l.startswith("||")}
+    fd = {d.strip() for d in cfg("FORCE_DIRECT").split(",") if d.strip()}
+    bad = [(d, "FORCE_DIRECT 里的故意放行（OK）" if in_domset(d, fd) else "**陈旧遗留：与自动区拦截打架**")
+           for d in allow if d in block]
+    if not bad:
+        return ["清单自检：放行/拦截无打架 ✓"]
+    out = [f"清单自检：{len(bad)} 条放行与自动区拦截同域（`$important` 会让**放行**生效）"]
+    out += [f"   {d} ← {why}" for d, why in sorted(bad)]
+    return out
 
 
 def parse_domains(text):
@@ -2164,6 +2189,10 @@ def main():
         pass
     dry = ("--dry-run" in sys.argv) or ("--check" in sys.argv)
     force = "--force" in sys.argv
+    if "--check-allows" in sys.argv:
+        for line in check_allow_conflicts():
+            print(line)
+        return 0
     if "--adh-rules-clean" in sys.argv:
         # 清空 ADH 自定义过滤规则（默认保留 @@ 放行；--all 连放行一起清）
         return adh_rules_clean(dry=dry, keep_allows="--all" not in sys.argv)
