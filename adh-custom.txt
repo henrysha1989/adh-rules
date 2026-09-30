@@ -44,7 +44,6 @@
 @@||aaplimg.com^$important
 @@||accs-dispatch.m.taobao.com^$important
 @@||acs.m.taobao.com^$important
-@@||ad.fqnovel.com^$important
 @@||amdc.m.taobao.com^$important
 @@||ampaeservices.com^$important
 @@||analytics.pgncs.notion.so^$important
@@ -115,7 +114,6 @@
 @@||megarobo.tech^$important
 @@||mmgame.qpic.cn^$important
 @@||mobile.events.data.microsoft.com^$important
-@@||mon-.fqnovel.com^$important
 @@||mssdk.volces.com^$important
 @@||mssdk3-normal-hj.zijieapi.com^$important
 @@||mssdk3-normal-hl.zijieapi.com^$important
