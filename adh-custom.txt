@@ -55,7 +55,6 @@
 @@||api.amemv.com^$important
 @@||api.tuisong.baidu.com^$important
 @@||appcfg.v.qq.com^$important
-@@||applog.zijieapi.com^$important
 @@||aweme.snssdk.com^$important
 @@||browsercfg-drcn.cloud.dbankcloud.cn^$important
 @@||browserleaks.com^$important
@@ -117,9 +116,6 @@
 @@||mmgame.qpic.cn^$important
 @@||mobile.events.data.microsoft.com^$important
 @@||mon-.fqnovel.com^$important
-@@||mon11-misc-lf.fqnovel.com^$important
-@@||mon11-misc-lq.fqnovel.com^$important
-@@||mon3-misc-lf.fqnovel.com^$important
 @@||mssdk.volces.com^$important
 @@||mssdk3-normal-hj.zijieapi.com^$important
 @@||mssdk3-normal-hl.zijieapi.com^$important
@@ -150,7 +146,6 @@
 @@||render.ecombdpage.com^$important
 @@||rms-drcn.platform.dbankcloud.cn^$important
 @@||rtcxyz.com^$important
-@@||rtlog5-applog-lf.fqnovel.com^$important
 @@||safebrowsing.googleapis.com^$important
 @@||scc.bytedance.com^$important
 @@||sdkoptedge.chinanetcenter.com^$important
@@ -164,20 +159,7 @@
 @@||u.meizu.com^$important
 @@||update.wps.cn^$important
 @@||v10.events.data.microsoft.com^$important
-@@||v11-reading-ad.qznovelvod.com^$important
-@@||v13-reading-ad.qznovelvod.com^$important
 @@||v20.events.data.microsoft.com^$important
-@@||v26-reading-ad.qznovelvod.com^$important
-@@||v5-bd-daily-reading-ad.qznovelvod.com^$important
-@@||v5-ex-reading-ad.qznovelvod.com^$important
-@@||v5-se-sjy-daily-reading-ad.qznovelvod.com^$important
-@@||v6-daily-reading-ad.qznovelvod.com^$important
-@@||v6-reading-ad.qznovelvod.com^$important
-@@||v9-reading-ad.qznovelvod.com^$important
-@@||v95-aw-reading-ad.qznovelvod.com^$important
-@@||v95-se-zjwztc-reading-ad.qznovelvod.com^$important
-@@||v95-zjjx2tc-reading-ad.qznovelvod.com^$important
-@@||v96-sz-daily-reading-ad.qznovelvod.com^$important
 @@||vcs-hj.zijieapi.com^$important
 @@||volccdn.com^$important
 @@||webcast-core-m.amemv.com^$important
