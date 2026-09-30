@@ -1443,8 +1443,8 @@ def repo_update_rule_deltas(owner, name, token, branch, deltas):
     所以由脚本补这一段。两边各管一段，不抢同一行写。
     注：拦截的增删取自 `adh-custom.txt` 自动区（= CI 生成的 `reject-custom.list` 的增删；
     手工区是人改的，不算脚本的功劳）。失败只告警，绝不让同步失败。"""
-    labels = ((cfg("REPO_PATH"), "拦截"), (cfg("REPO_DIRECT_PATH"), "直连"),
-              (cfg("REPO_PROXY_PATH"), "代理"))
+    # 2026-10-01 拆分后：本仓库只有 adh-custom.txt（小火箭三张表在另一个仓库）
+    labels = ((cfg("REPO_PATH"), "拦截"),)
     summary = " / ".join(f"{lab} +{deltas.get(p, (0, 0))[0]}/-{deltas.get(p, (0, 0))[1]}"
                          for p, lab in labels)
     headers = {"Authorization": f"token {token}", "Accept": "application/vnd.github+json"}
