@@ -1,4 +1,4 @@
-! updated: 2026-10-01 20:02 +0800
+! updated: 2026-10-02 08:02 +0800
 ! ==========================================================
 ! ADH 自定义拦截规则（AdGuard 语法）—— 由 adh_gist_sync.py 自动维护
 ! ==========================================================
@@ -182,6 +182,7 @@
 ||120-223-160-91-ad35f787.bvmlt.top^
 ||66mobi.com^
 ||a.fxltsbl.com^
+||a.pub.network^
 ||abtest-ch.snssdk.com^
 ||abtest.alibaba.com^
 ||abtest.wtzw.com^
@@ -333,6 +334,7 @@
 ||data.sec.miui.com^
 ||device-security-url.jd.com^
 ||dfe.mic.mob.com^
+||dianomi.com^
 ||dig-cfg.wtzw.com^
 ||dm.toutiao.com^
 ||dnconfig.cmpassport.com^
@@ -458,6 +460,7 @@
 ||logupdate.avlyun.sec.miui.com^
 ||logv2.ireader.com^
 ||luckycat.byteimg.com^
+||m.reachmax.cn^
 ||ma.zijieapi.com^
 ||madx.flyme.cn^
 ||mars.jd.com^
@@ -469,6 +472,7 @@
 ||mcs.zijieapi.com^
 ||mddlsa.com^
 ||mediadata.xuexi.cn^
+||metrics-drcn.dt.dbankcloud.cn^
 ||metrics1-drcn.dt.dbankcloud.cn^
 ||metrics1.data.dbankcloud.cn^
 ||metrics1.data.hicloud.com^
@@ -600,7 +604,6 @@
 ||store.is.autonavi.com^
 ||t-cfg.wtzw.com^
 ||t-dsp.pinduoduo.com^
-||t.e.x.com^
 ||t2.xiaohongshu.com^
 ||t7z.cupid.iqiyi.com^
 ||ta.pinduoduo.com^
@@ -639,6 +642,7 @@
 ||trace.rtbasia.com^
 ||tracelog-debug.yunxish.com^
 ||track.merchat.cn^
+||tracker.metricool.com^
 ||tracker.soulapp.cn^
 ||tracking.miui.com^
 ||tsis.jpush.cn^
