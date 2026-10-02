@@ -1487,8 +1487,11 @@ def repo_update_rule_deltas(owner, name, token, branch, deltas):
         new, n = pat.subn(lambda m: f"{m.group(1)}（+{a}/-{r}）", new, count=1)
         hits += n
     if not hits:
-        print("README deltas: 计数行没匹配上，跳过（计数格式变了？）")
-        return
+        # 2026-10-03：adh-rules 的 README 已删掉「当前规则量」行（那个数字的维护者
+        #   update_readme_counts.py 留在小火箭仓库，自 10-01 拆分起就没人写它了）。
+        #   ⚠️ 这里**不能 return**：否则下面的「更新时间」行也永远刷不了，
+        #   README 会看起来像 pipeline 死了。
+        print("README deltas: 无计数行（adh-rules 已删该行），只刷新更新时间")
     # 更新时间行：本脚本每跑一轮就刷新（2026-09-25 起同步改为每天 08:00 CST 一次），
     # 所以即使某天没有规则增删，这行也会如实往前走 —— 它就是"pipeline 最近一次跑"的时间。
     # CI 的 update_readme_counts.py 也会写它（list 变更时），两者相隔几秒，结果一致。
@@ -2760,9 +2763,11 @@ def main():
             lines.append("冲突裁决：放行 %d / 降级 %d 条：%s%s" % (
                 len(released), len(downgraded), short(changed) if changed else "",
                 "（明细 .conflict_evidence.json）"))
-        if sr_stale:
-            lines.append("⚠ 手机仍拦截已放行域 %d：%s" % (
-                len(sr_stale), ", ".join(f"{h}x{c}" for c, h in sr_stale[:5])))
+        # ⚠️ 2026-10-03：原「手机仍拦截已放行域」一项（sr_stale）随 10-01 拆分迁到
+        #   `sr/sr_analyze.py`（那里的 `stale_phone`）。这里若继续引用会在 Telegram
+        #   分支抛 NameError，导致 main() 在 mark_sync_done() 之前退出 —— 日更闸门
+        #   因此永远不前进（每 4h 唤醒都全量重跑）。2026-10-01 08:00 ~ 10-02 20:00
+        #   的每轮 cron 都是这个 rc=1。
         print("telegram:", tg_send(cfg("TELEGRAM_BOT_TOKEN"), cfg("TELEGRAM_CHAT_ID"),
                                    "\n".join(lines), cfg("TELEGRAM_PROXY")))
 
