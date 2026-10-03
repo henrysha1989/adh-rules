@@ -1,4 +1,4 @@
-! updated: 2026-10-02 18:13 +0000
+! updated: 2026-10-03 08:02 +0800
 ! ==========================================================
 ! ADH 自定义拦截规则（AdGuard 语法）—— 由 adh_gist_sync.py 自动维护
 ! ==========================================================
@@ -351,6 +351,7 @@
 ||dsp.qimao.com^
 ||dualstack-logs.amap.com^
 ||e.cn.miaozhen.com^
+||easytomessage.com^
 ||emoticon-sns.iqiyi.com^
 ||entry-su1.ubixioe.com^
 ||errnewlog.umeng.com^
@@ -581,6 +582,7 @@
 ||sdk.adx.adwangmai.com^
 ||sdk.beizi.biz^
 ||sdk.e.qq.com^
+||sdk.open.talk.getui.com^
 ||sdk.ptqy.gitv.tv^
 ||sdkconf.avlyun.com^
 ||sdkconfig.video.qq.com^
@@ -591,6 +593,7 @@
 ||sgm-m.jd.com^
 ||shark-tracer.netease.com^
 ||sis-ipv6.jpush.cn^
+||sis.jpush.io^
 ||sjxydc.com^
 ||smartop-sdkapi.jiguang.cn^
 ||snowflake.qq.com^
@@ -625,6 +628,7 @@
 ||telecom.shuzilm.cn^
 ||telemetry.proton.me^
 ||th.pinduoduo.com^
+||thm.market.xiaomi.com^
 ||tianshu.gtimg.cn^
 ||tianwenca.com^
 ||tiga-release-dc.m.taobao.com^
