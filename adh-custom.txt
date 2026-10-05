@@ -1,4 +1,4 @@
-! updated: 2026-10-04 08:02 +0800
+! updated: 2026-10-05 08:01 +0800
 ! ==========================================================
 ! ADH 自定义拦截规则（AdGuard 语法）—— 由 adh_gist_sync.py 自动维护
 ! ==========================================================
@@ -180,15 +180,8 @@
 ||120-223-160-80-ad84f7cd.bvmlt.top^
 ||120-223-160-84-ad1f1de9.bvmlt.top^
 ||120-223-160-91-ad35f787.bvmlt.top^
-||1iyybf-dnsotls-ds.metric.gstatic.com^
-||1wrv21-dnsotls-ds.metric.gstatic.com^
 ||4mwe9ki9r.com^
 ||66mobi.com^
-||8mnhn5-dnsotls-ds.metric.gstatic.com^
-||8wmfvf-dnsotls-ds.metric.gstatic.com^
-||9avsve-dnsotls-ds.metric.gstatic.com^
-||9f8ekz-dnsotls-ds.metric.gstatic.com^
-||9zcshe-dnsotls-ds.metric.gstatic.com^
 ||a.fxltsbl.com^
 ||a.pub.network^
 ||abtest-ch.snssdk.com^
@@ -238,8 +231,10 @@
 ||adservice.sigmob.cn^
 ||adsmind.gdtimg.com^
 ||adsmind.ugdtimg.com^
+||adtrack.quark.cn^
 ||adx-data-u1.ubixioe.com^
 ||adx.g.doubleclick.net^
+||aeventlog.beacon.qq.com^
 ||afd.baidu.com^
 ||aj-bizlog.cn-qingdao.log.aliyuncs.com^
 ||akamai-apigateway-gio-analytics.tesla.cn^
@@ -254,6 +249,7 @@
 ||analytics.adjust.com^
 ||analytics.adjust.net.in^
 ||analytics.adjust.world^
+||analytics.editcookie.com^
 ||analytics.immersivetranslate.com^
 ||analytics.map.qq.com^
 ||analytics.oceanengine.com^
@@ -297,7 +293,6 @@
 ||b.scorecardresearch.com^
 ||badjs.weixinbridge.com^
 ||bda.umetrip.com^
-||be1azk-dnsotls-ds.metric.gstatic.com^
 ||beacon.cdn.qq.com^
 ||beaconcdn.qq.com^
 ||bgg.baidu.com^
@@ -329,6 +324,7 @@
 ||cm-10-171.getui.com^
 ||cm-10-172.getui.com^
 ||cm.g.doubleclick.net^
+||cmyd-10-128.getui.com^
 ||cnam4c.cdn-settings.appsflyersdk.com^
 ||cnam4c.launches.appsflyersdk.com^
 ||cnlogs.umeng.com^
@@ -339,7 +335,6 @@
 ||cr.adsappier.com^
 ||crash.xiaohongshu.com^
 ||crashlytics.com^
-||csi.gstatic.com^
 ||ct.pinterest.com^
 ||da.mmarket.com^
 ||dailygn.com^
@@ -364,6 +359,7 @@
 ||dsp.pinduoduo.com^
 ||dsp.qimao.com^
 ||dualstack-logs.amap.com^
+||e-u1.ubixioe.com^
 ||e.cn.miaozhen.com^
 ||easytomessage.com^
 ||emoticon-sns.iqiyi.com^
@@ -378,7 +374,6 @@
 ||fcmatch.youtube.com^
 ||feedback-c.zijieapi.com^
 ||feedguess.meituan.com^
-||fiezmd-dnsotls-ds.metric.gstatic.com^
 ||file.daihuo.qq.com^
 ||finderdsp.video.qq.com^
 ||flash.sec.miui.com^
@@ -386,7 +381,6 @@
 ||fourier.taobao.com^
 ||fp-it.fengkongcloud.com^
 ||fp.tongdun.net^
-||frwm9l-dnsotls-ds.metric.gstatic.com^
 ||g.cn.miaozhen.com^
 ||galileotelemetry.tencent.com^
 ||game.eve.mdt.qq.com^
@@ -407,8 +401,8 @@
 ||hc-ssp.sm.cn^
 ||hectorstatic.baidu.com^
 ||hellogroup.com^
-||hlhbap-dnsotls-ds.metric.gstatic.com^
 ||hm.baidu.com^
+||hotchat-im.iqiyi.com^
 ||httpdns.baidubce.com^
 ||httpdns.bcelive.com^
 ||httpdns.kuaishou.com^
@@ -420,8 +414,6 @@
 ||i.gridsumdissector.com^
 ||i.qchannel03.cn^
 ||iadsdk.apple.com^
-||ibe5bb-dnsotls-ds.metric.gstatic.com^
-||idlwlo-dnsotls-ds.metric.gstatic.com^
 ||idm.iot.mi.com^
 ||idx.m.hub.sandai.net^
 ||ilce.alicdn.com^
@@ -436,15 +428,13 @@
 ||ipv6.shuzilm.cn^
 ||ir-sdk.dun.163.com^
 ||janapi.jd.com^
+||jhgsa.lantsc.xn--czru2dx3eszw3lat53b.com^
 ||jomodns.cn^
-||jpa2ew-dnsotls-ds.metric.gstatic.com^
 ||jpushsc.m.jd.com^
 ||jspcdn.cn^
 ||jupiter.sys.miui.com^
-||jvmsvn-dnsotls-ds.metric.gstatic.com^
+||khgsb.lantsc.xn--czru2dx3eszw3lat53b.com^
 ||kuiniuca.com^
-||l2zqbj-dnsotls-ds.metric.gstatic.com^
-||l8cxun-dnsotls-ds.metric.gstatic.com^
 ||ldhy.click^
 ||lelzbtm2o.com^
 ||lftxali.fancyapi.com^
@@ -502,7 +492,6 @@
 ||mcc.inf.miui.com^
 ||mcs.snssdk.com^
 ||mcs.zijieapi.com^
-||md95xc-dnsotls-ds.metric.gstatic.com^
 ||mddlsa.com^
 ||mediadata.xuexi.cn^
 ||metrics-drcn.dt.dbankcloud.cn^
@@ -527,6 +516,7 @@
 ||mon.toutiaocloud.net^
 ||mon.zijieapi.com^
 ||mon0-misc-lf.amemv.com^
+||mon11-misc-lf.amemv.com^
 ||mon11-misc-lq.toutiaoapi.com^
 ||monitor.music.qq.com^
 ||monsetting.toutiao.com^
@@ -538,16 +528,9 @@
 ||mssdk3-normal-lq.zijieapi.com^
 ||mtrace.ysp.cctv.cn^
 ||muf.app-ads-services.com^
-||mynaxe-dnsotls-ds.metric.gstatic.com^
-||n3aoal-dnsotls-ds.metric.gstatic.com^
-||ndepbx-dnsotls-ds.metric.gstatic.com^
-||np7yof-dnsotls-ds.metric.gstatic.com^
 ||nsclick.baidu.com^
 ||nsp-logservice-hiview-p43-drcn.obs.cn-north-2.myhuaweicloud.com^
 ||nsp-logservice-weardevice-p51-drcn.obs.cn-north-2.myhuaweicloud.com^
-||nv5twe-dnsotls-ds.metric.gstatic.com^
-||o7mq5q-dnsotls-ds.metric.gstatic.com^
-||oacyxe-dnsotls-ds.metric.gstatic.com^
 ||odf.app-ads-services.com^
 ||odm.app-ads-services.com^
 ||onethingpcs.com^
@@ -567,7 +550,6 @@
 ||p5-ad.adkwai.com^
 ||p66-ad.adkwai.com^
 ||p9-ad-sign.byteimg.com^
-||p9iii6-dnsotls-ds.metric.gstatic.com^
 ||paas-push-api-log.immomo.com^
 ||paas-push-api.immomo.com^
 ||pagead2.googlesyndication.com^
@@ -577,7 +559,6 @@
 ||pangolin.snssdk.com^
 ||pc-mon.snssdk.com^
 ||perf.m.jd.com^
-||pfazdp-dnsotls-ds.metric.gstatic.com^
 ||pgdt.gtimg.cn^
 ||pgdt.ugdtimg.com^
 ||pglstatp-toutiao.com^
@@ -587,14 +568,12 @@
 ||policy.video.iqiyi.com^
 ||poplayer.template.alibaba.com^
 ||port.sec.miui.com^
-||pqbjwb-dnsotls-ds.metric.gstatic.com^
 ||pubads.g.doubleclick.net^
 ||pulse.jpush.cn^
 ||punch.p2p.qq.com^
 ||px.effirst.com^
 ||px.ucweb.com^
 ||px.wpk.quark.cn^
-||q8semv-dnsotls-ds.metric.gstatic.com^
 ||qdp.qidian.com^
 ||qiezibenpao.com^
 ||qm-ab.wtzw.com^
@@ -602,8 +581,6 @@
 ||qm-dig.wtzw.com^
 ||qmad.qimao.com^
 ||qsb.browser.miui.com^
-||qtciwh-dnsotls-ds.metric.gstatic.com^
-||qtfjwi-dnsotls-ds.metric.gstatic.com^
 ||queniuck.com^
 ||qzs.gdtimg.com^
 ||rcv.aiclk.com^
@@ -612,9 +589,7 @@
 ||resolve.umeng.com^
 ||resolver.dingtalk.com^
 ||rhl8r3dkc.com^
-||rli3h7-dnsotls-ds.metric.gstatic.com^
 ||rmonitor.qq.com^
-||rnbuxr-dnsotls-ds.metric.gstatic.com^
 ||roovza.cdn-settings.appsflyersdk.com^
 ||roovza.launches.appsflyersdk.com^
 ||rtlog22-normal-alisg.tiktokv.com^
@@ -624,10 +599,12 @@
 ||s.jpush.cn^
 ||sa3.tuisong.baidu.com^
 ||saveu5-normal-lq.zijieapi.com^
+||sdk-open-phone.getui.com^
 ||sdk.1rtb.net^
 ||sdk.adx.adwangmai.com^
 ||sdk.beizi.biz^
 ||sdk.e.qq.com^
+||sdk.open.talk.gepush.com^
 ||sdk.open.talk.getui.com^
 ||sdk.ptqy.gitv.tv^
 ||sdk.zhangyuyidong.cn^
@@ -642,6 +619,7 @@
 ||sis-ipv6.jpush.cn^
 ||sis.jpush.io^
 ||sjxydc.com^
+||slb-p2p.vcloud.ks-live.com^
 ||smartop-sdkapi.jiguang.cn^
 ||snowflake.qq.com^
 ||sofire.baidu.com^
@@ -656,6 +634,9 @@
 ||stat.moji.com^
 ||stat6.y.qq.com^
 ||static-s.iqiyi.com^
+||static.cloudflareinsights.com^
+||stats-ipv6.jpush.cn^
+||stats.jpush.cn^
 ||statusapi.micloud.xiaomi.net^
 ||store.is.autonavi.com^
 ||t-cfg.wtzw.com^
@@ -672,6 +653,7 @@
 ||tcbox.baidu.com^
 ||td-nexus.advlion.com^
 ||tdid.m.qq.com^
+||techain.baidu.com^
 ||telecom.shuzilm.cn^
 ||telemetry.proton.me^
 ||th.pinduoduo.com^
@@ -683,7 +665,6 @@
 ||timon.zijieapi.com^
 ||tjjs.wtzw.com^
 ||tk2.vlion.cn^
-||tkiiui-dnsotls-ds.metric.gstatic.com^
 ||tmead.y.qq.com^
 ||tnc0-aliec2.zijieapi.com^
 ||tnc0-alisc1.zijieapi.com^
@@ -706,7 +687,7 @@
 ||tracker.soulapp.cn^
 ||tracking.miui.com^
 ||tsis.jpush.cn^
-||uczlhe-dnsotls-ds.metric.gstatic.com^
+||ug.baidu.com^
 ||ugsdk.cn^
 ||ulogjs.gifshow.com^
 ||ulogjs.ksapisrv.com^
@@ -718,9 +699,7 @@
 ||umeng-cn-shenzhen520.cn-shenzhen.log.aliyuncs.com^
 ||umengacs.m.taobao.com^
 ||umestartup.umetrip.com^
-||umyqyq-dnsotls-ds.metric.gstatic.com^
 ||unicom.shuzilm.cn^
-||unz9ei-dnsotls-ds.metric.gstatic.com^
 ||up-hl.3g.qq.com^
 ||update.avlyun.sec.miui.com^
 ||us.l.qq.com^
@@ -734,22 +713,20 @@
 ||v2mi.gdt.qq.com^
 ||v3.gdt.qq.com^
 ||v5-reading-ad.qznovelvod.com^
-||vabf7c-dnsotls-ds.metric.gstatic.com^
 ||vcs.zijieapi.com^
 ||vi.l.qq.com^
 ||vmat.gtimg.com^
 ||volceapplog.com^
+||vs6.hzcm.u3.ucweb.com^
 ||vs6.hzct.u3.ucweb.com^
 ||vv.video.qq.com^
 ||w3-reporting.reddit.com^
 ||waapdg.jd.com^
-||wc5evu-dnsotls-ds.metric.gstatic.com^
 ||wdaa.shuzilm.cn^
 ||we-material.cn-wulanchabu.log.aliyuncs.com^
+||webn.cc^
 ||wetelemetry.weixin.qq.com^
 ||win.gdt.qq.com^
-||wrxxqt-dnsotls-ds.metric.gstatic.com^
-||wtmyac-dnsotls-ds.metric.gstatic.com^
 ||wup.imtt.qq.com^
 ||www.google-analytics.com^
 ||www.qchannel01.cn^
@@ -757,19 +734,14 @@
 ||wxa.wxs.qq.com^
 ||wximg.wxs.qq.com^
 ||wxsmw.wxs.qq.com^
-||wyklst-dnsotls-ds.metric.gstatic.com^
-||x5vscl-dnsotls-ds.metric.gstatic.com^
-||xcmfxn-dnsotls-ds.metric.gstatic.com^
 ||xlog.jd.com^
 ||xpis-xcdn.youku.com^
 ||yingt.fun^
 ||yoda.kwd.inkuai.com^
 ||yumao.puata.info^
 ||yun-hl.3g.qq.com^
-||z9wu7d-dnsotls-ds.metric.gstatic.com^
 ||zconfig.alibabausercontent.com^
 ||zhiyan.monitor.tencent-cloud.net^
-||ztmqbm-dnsotls-ds.metric.gstatic.com^
 ||zz.bdstatic.com^
 ||zzhc.vnet.cn^
 ||zztfly.com^
