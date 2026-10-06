@@ -1,4 +1,4 @@
-! updated: 2026-10-05 08:01 +0800
+! updated: 2026-10-06 08:04 +0800
 ! ==========================================================
 ! ADH 自定义拦截规则（AdGuard 语法）—— 由 adh_gist_sync.py 自动维护
 ! ==========================================================
@@ -181,7 +181,9 @@
 ||120-223-160-84-ad1f1de9.bvmlt.top^
 ||120-223-160-91-ad35f787.bvmlt.top^
 ||4mwe9ki9r.com^
+||51086kldxjjs.lurhtbf.com^
 ||66mobi.com^
+||8hvq8jskh.com^
 ||a.fxltsbl.com^
 ||a.pub.network^
 ||abtest-ch.snssdk.com^
@@ -258,6 +260,7 @@
 ||analytics.twitter.com^
 ||anti-sdk-ccs-pre.m.jd.com^
 ||anti-sdk-report.m.jd.com^
+||apd-pcdnwxnat.teg.tencent-cloud.net^
 ||apd-pcdnwxstat.teg.tencent-cloud.net^
 ||api-adservices.apple.com^
 ||api-cfg.wtzw.com^
@@ -295,6 +298,7 @@
 ||bda.umetrip.com^
 ||beacon.cdn.qq.com^
 ||beaconcdn.qq.com^
+||bedwlzqwkxpzfc.com^
 ||bgg.baidu.com^
 ||bid-adx2.vlion.cn^
 ||bird.cn-hangzhou.log.aliyuncs.com^
@@ -378,6 +382,7 @@
 ||finderdsp.video.qq.com^
 ||flash.sec.miui.com^
 ||foo-applog-bar.probe-9f3a.com^
+||fourier.alibaba.com^
 ||fourier.taobao.com^
 ||fp-it.fengkongcloud.com^
 ||fp.tongdun.net^
@@ -439,10 +444,12 @@
 ||lelzbtm2o.com^
 ||lftxali.fancyapi.com^
 ||lh3.googleadsserving.cn^
+||libs.baidu.com^
 ||live-api.immomo.com^
 ||live-log.immomo.com^
 ||live-player-log-service.bytedance.com^
 ||live-player-log.zijieapi.com^
+||livep.l.qq.com^
 ||lng.xiaohongshu.com^
 ||location.ximalaya.com^
 ||log-hl.snssdk.com^
@@ -717,6 +724,7 @@
 ||vi.l.qq.com^
 ||vmat.gtimg.com^
 ||volceapplog.com^
+||vs4.hzcm.u3.ucweb.com^
 ||vs6.hzcm.u3.ucweb.com^
 ||vs6.hzct.u3.ucweb.com^
 ||vv.video.qq.com^
