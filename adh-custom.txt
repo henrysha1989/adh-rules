@@ -1,4 +1,4 @@
-! updated: 2026-10-06 08:04 +0800
+! updated: 2026-10-07 08:02 +0800
 ! ==========================================================
 ! ADH 自定义拦截规则（AdGuard 语法）—— 由 adh_gist_sync.py 自动维护
 ! ==========================================================
@@ -329,6 +329,7 @@
 ||cm-10-172.getui.com^
 ||cm.g.doubleclick.net^
 ||cmyd-10-128.getui.com^
+||cmyd-10-93.getui.com^
 ||cnam4c.cdn-settings.appsflyersdk.com^
 ||cnam4c.launches.appsflyersdk.com^
 ||cnlogs.umeng.com^
@@ -360,6 +361,7 @@
 ||drs-ipv6.wtzw.com^
 ||drs.wtzw.com^
 ||dsap.jd.com^
+||dsp-x.jd.com^
 ||dsp.pinduoduo.com^
 ||dsp.qimao.com^
 ||dualstack-logs.amap.com^
@@ -750,6 +752,7 @@
 ||yun-hl.3g.qq.com^
 ||zconfig.alibabausercontent.com^
 ||zhiyan.monitor.tencent-cloud.net^
+||zxid-m.mobileservice.cn^
 ||zz.bdstatic.com^
 ||zzhc.vnet.cn^
 ||zztfly.com^
