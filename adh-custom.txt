@@ -39,9 +39,9 @@
 ||applog.zijieapi.com^
 !
 ! ── 放行规则（2026-09-30 从 ADH user_rules 搬来，共 152 条，全是 $important）──
-!    2026-10-07 复核移出 1 条：@@||qrstuvwxyzab.com^$important（随机字母父域+纯数字子域，疑似轮换追踪域）
 !    必须 $important：实测普通 @@ 压不住订阅大表（Cats-Team 19 万 / Advertising 28 万条）。
 !    与起底拦截重叠的域名不在此列（拦截优先）。
+@@||qrstuvwxyzab.com^$important
 @@||-mgsdk-sign.byteimg.com^$important
 @@||aaplimg.com^$important
 @@||accs-dispatch.m.taobao.com^$important
