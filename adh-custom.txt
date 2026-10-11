@@ -1,4 +1,4 @@
-! updated: 2026-10-08 08:02 +0800
+! updated: 2026-10-11 08:01 +0800
 ! ==========================================================
 ! ADH 自定义拦截规则（AdGuard 语法）—— 由 adh_gist_sync.py 自动维护
 ! ==========================================================
@@ -314,6 +314,7 @@
 ||bv.lnk0.com^
 ||c5mj81yuuo.com^
 ||canvas-cdn.gdt.qq.com^
+||catfront.dianping.com^
 ||cbsipv4.shuzilm.cn^
 ||ccc.sys.miui.com^
 ||ccfjma.m.jd.com^
@@ -480,6 +481,7 @@
 ||log5-applog-hl.fqnovel.com^
 ||log5-misc-hl.amemv.com^
 ||log5-misc-lf.amemv.com^
+||logan-rtl.dreport.meituan.net^
 ||logbk.amemv.com^
 ||logger.qmai.cn^
 ||loggw-ex.alipay.com^
