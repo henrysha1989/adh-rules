@@ -1,4 +1,4 @@
-! updated: 2026-10-11 08:01 +0800
+! updated: 2026-10-12 08:01 +0800
 ! ==========================================================
 ! ADH 自定义拦截规则（AdGuard 语法）—— 由 adh_gist_sync.py 自动维护
 ! ==========================================================
@@ -313,6 +313,7 @@
 ||buttons.reddit.com^
 ||bv.lnk0.com^
 ||c5mj81yuuo.com^
+||cactus.jd.com^
 ||canvas-cdn.gdt.qq.com^
 ||catfront.dianping.com^
 ||cbsipv4.shuzilm.cn^
@@ -410,6 +411,7 @@
 ||hc-ssp.sm.cn^
 ||hectorstatic.baidu.com^
 ||hellogroup.com^
+||hermes.jd.com^
 ||hm.baidu.com^
 ||hotchat-im.iqiyi.com^
 ||httpdns.baidubce.com^
@@ -618,6 +620,7 @@
 ||sdk.e.qq.com^
 ||sdk.open.talk.gepush.com^
 ||sdk.open.talk.getui.com^
+||sdk.open.talk.getui.net^
 ||sdk.ptqy.gitv.tv^
 ||sdk.zhangyuyidong.cn^
 ||sdkconf.avlyun.com^
