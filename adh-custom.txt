@@ -1,4 +1,4 @@
-! updated: 2026-10-12 08:01 +0800
+! updated: 2026-10-13 08:02 +0800
 ! ==========================================================
 ! ADH 自定义拦截规则（AdGuard 语法）—— 由 adh_gist_sync.py 自动维护
 ! ==========================================================
@@ -344,6 +344,7 @@
 ||crash.xiaohongshu.com^
 ||crashlytics.com^
 ||ct.pinterest.com^
+||d.qchannel03.cn^
 ||da.mmarket.com^
 ||dailygn.com^
 ||data-collector.soulapp.cn^
@@ -572,6 +573,7 @@
 ||pangolin-sdk-toutiao1.com^
 ||pangolin.snssdk.com^
 ||pc-mon.snssdk.com^
+||pcapp-data-collect.youku.com^
 ||perf.m.jd.com^
 ||pgdt.gtimg.cn^
 ||pgdt.ugdtimg.com^
