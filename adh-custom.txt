@@ -1,4 +1,4 @@
-! updated: 2026-10-13 08:02 +0800
+! updated: 2026-10-15 08:01 +0800
 ! ==========================================================
 ! ADH 自定义拦截规则（AdGuard 语法）—— 由 adh_gist_sync.py 自动维护
 ! ==========================================================
@@ -282,6 +282,7 @@
 ||apmplus.volces.com^
 ||app-analytics-services.com^
 ||app-measurement.com^
+||applog-perf.uc.cn^
 ||applog.lc.quark.cn^
 ||applog.snssdk.com^
 ||applog.uc.cn^
