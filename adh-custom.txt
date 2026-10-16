@@ -1,4 +1,4 @@
-! updated: 2026-10-15 08:01 +0800
+! updated: 2026-10-16 08:03 +0800
 ! ==========================================================
 ! ADH 自定义拦截规则（AdGuard 语法）—— 由 adh_gist_sync.py 自动维护
 ! ==========================================================
@@ -297,6 +297,7 @@
 ||b.scorecardresearch.com^
 ||babel-statistics-android.dreport.meituan.net^
 ||badjs.weixinbridge.com^
+||bbs.alipansou.com^
 ||bda.umetrip.com^
 ||beacon.cdn.qq.com^
 ||beaconcdn.qq.com^
@@ -448,6 +449,7 @@
 ||jupiter.sys.miui.com^
 ||khgsb.lantsc.xn--czru2dx3eszw3lat53b.com^
 ||kuiniuca.com^
+||l-rcd.iqiyi.com^
 ||ldhy.click^
 ||lelzbtm2o.com^
 ||lftxali.fancyapi.com^
