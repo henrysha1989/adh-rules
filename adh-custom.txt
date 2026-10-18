@@ -1,4 +1,4 @@
-! updated: 2026-10-17 08:01 +0800
+! updated: 2026-10-18 08:04 +0800
 ! ==========================================================
 ! ADH 自定义拦截规则（AdGuard 语法）—— 由 adh_gist_sync.py 自动维护
 ! ==========================================================
@@ -367,6 +367,8 @@
 ||dfe.mic.mob.com^
 ||dianomi.com^
 ||dig-cfg.wtzw.com^
+||dm-hl.toutiao.com^
+||dm.bytedance.com^
 ||dm.toutiao.com^
 ||dnconfig.cmpassport.com^
 ||dnlog.cmpassport.com^
@@ -535,7 +537,11 @@
 ||md95xc-dnsotls-ds.metric.gstatic.com^
 ||mddlsa.com^
 ||mediadata.xuexi.cn^
+||metrics-ad-drcn.dt.hihonorcloud.com^
+||metrics-basecloud-drcn.dt.hihonorcloud.com^
 ||metrics-drcn.dt.dbankcloud.cn^
+||metrics-drcn.dt.hihonorcloud.com^
+||metrics.dt.hihonorcloud.com^
 ||metrics1-drcn.dt.dbankcloud.cn^
 ||metrics1.data.dbankcloud.cn^
 ||metrics1.data.hicloud.com^
@@ -585,6 +591,7 @@
 ||onethingpcs.com^
 ||opactivity.umetrip.com^
 ||open.e.kuaishou.com^
+||openadapi.fancydsp.com^
 ||optimus-ads.amap.com^
 ||oth.bls.mdt.qq.com^
 ||oth.eve.mdt.qq.com^
