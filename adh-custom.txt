@@ -1,4 +1,4 @@
-! updated: 2026-10-18 08:04 +0800
+! updated: 2026-10-19 08:01 +0800
 ! ==========================================================
 ! ADH 自定义拦截规则（AdGuard 语法）—— 由 adh_gist_sync.py 自动维护
 ! ==========================================================
@@ -326,6 +326,7 @@
 ||cactus.jd.com^
 ||canvas-cdn.gdt.qq.com^
 ||catfront.dianping.com^
+||cbjs.baidu.com^
 ||cbsipv4.shuzilm.cn^
 ||ccc.sys.miui.com^
 ||ccfjma.m.jd.com^
@@ -400,11 +401,8 @@
 ||fiezmd-dnsotls-ds.metric.gstatic.com^
 ||file.daihuo.qq.com^
 ||finderdsp.video.qq.com^
-||firebaselogging-pa.googleapis.com^
-||firebaselogging.googleapis.com^
 ||flash.sec.miui.com^
 ||foo-applog-bar.probe-9f3a.com^
-||footprints-pa.googleapis.com^
 ||fourier.alibaba.com^
 ||fourier.taobao.com^
 ||fp-it.fengkongcloud.com^
@@ -453,7 +451,6 @@
 ||im-x.jd.com^
 ||image-ad.sm.cn^
 ||images.pinduoduo.com^
-||imasdk.googleapis.com^
 ||imp.voiceads.cn^
 ||increase-openapi.soulapp.cn^
 ||info.3g.qq.com^
@@ -479,6 +476,8 @@
 ||lftxali.fancyapi.com^
 ||lh3.googleadsserving.cn^
 ||libs.baidu.com^
+||lippi-doc-we-collab.cn-zhangjiakou.log.aliyuncs.com^
+||lippi-suite-common-log.cn-shanghai.log.aliyuncs.com^
 ||live-api.immomo.com^
 ||live-log.immomo.com^
 ||live-player-log-service.bytedance.com^
@@ -593,6 +592,7 @@
 ||open.e.kuaishou.com^
 ||openadapi.fancydsp.com^
 ||optimus-ads.amap.com^
+||oss.cdn.aiclk.com^
 ||oth.bls.mdt.qq.com^
 ||oth.eve.mdt.qq.com^
 ||oth.str.beacon.qq.com^
@@ -661,10 +661,10 @@
 ||rtlog22-normal-alisg.tiktokv.com^
 ||rtlog3-applog-hl.amemv.com^
 ||rumt-zh.com^
+||s.1rtb.net^
 ||s.bdstatic.com^
 ||s.jpush.cn^
 ||sa3.tuisong.baidu.com^
-||safebrowsing.googleapis.com^
 ||saveu5-normal-lq.zijieapi.com^
 ||sdk-open-phone.getui.com^
 ||sdk.1rtb.net^
@@ -679,6 +679,7 @@
 ||sdkconf.avlyun.com^
 ||sdkconfig.video.qq.com^
 ||sdkfp.jd.com^
+||sdklog.zhangyuyidong.cn^
 ||sdkquic.e.qq.com^
 ||sdkreport.e.qq.com^
 ||servicecut.meizu.com^
@@ -755,6 +756,7 @@
 ||track.uc.cn^
 ||tracker.metricool.com^
 ||tracker.soulapp.cn^
+||trackercollect.ddxq.mobi^
 ||tracking.miui.com^
 ||tsis.jpush.cn^
 ||uczlhe-dnsotls-ds.metric.gstatic.com^
@@ -781,6 +783,7 @@
 ||uxip.meizu.com^
 ||v.miguvideo.com^
 ||v1.log.moji.com^
+||v2.aiclk.com^
 ||v2.gdt.qq.com^
 ||v2.reachmax.cn^
 ||v2mi.gdt.qq.com^
