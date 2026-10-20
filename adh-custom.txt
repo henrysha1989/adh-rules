@@ -1,4 +1,4 @@
-! updated: 2026-10-19 08:01 +0800
+! updated: 2026-10-20 08:01 +0800
 ! ==========================================================
 ! ADH 自定义拦截规则（AdGuard 语法）—— 由 adh_gist_sync.py 自动维护
 ! ==========================================================
@@ -563,6 +563,7 @@
 ||mon.zijieapi.com^
 ||mon0-misc-lf.amemv.com^
 ||mon11-misc-lf.amemv.com^
+||mon11-misc-lf.novelfm.com^
 ||mon11-misc-lq.toutiaoapi.com^
 ||monitor.music.qq.com^
 ||monsetting.toutiao.com^
@@ -642,6 +643,7 @@
 ||qm-data.wtzw.com^
 ||qm-dig.wtzw.com^
 ||qmad.qimao.com^
+||qqdata.ab.qq.com^
 ||qsb.browser.miui.com^
 ||qtciwh-dnsotls-ds.metric.gstatic.com^
 ||qtfjwi-dnsotls-ds.metric.gstatic.com^
@@ -828,6 +830,7 @@
 ||yun-hl.3g.qq.com^
 ||z9wu7d-dnsotls-ds.metric.gstatic.com^
 ||zconfig.alibabausercontent.com^
+||zexudnxmjadlzg.com^
 ||zhiyan.monitor.tencent-cloud.net^
 ||ztmqbm-dnsotls-ds.metric.gstatic.com^
 ||zxid-m.mobileservice.cn^
