@@ -1,4 +1,4 @@
-! updated: 2026-10-20 08:01 +0800
+! updated: 2026-10-22 08:01 +0800
 ! ==========================================================
 ! ADH 自定义拦截规则（AdGuard 语法）—— 由 adh_gist_sync.py 自动维护
 ! ==========================================================
@@ -322,6 +322,7 @@
 ||btrace.yangshipin.cn^
 ||buttons.reddit.com^
 ||bv.lnk0.com^
+||c-gtc.getui.net^
 ||c5mj81yuuo.com^
 ||cactus.jd.com^
 ||canvas-cdn.gdt.qq.com^
