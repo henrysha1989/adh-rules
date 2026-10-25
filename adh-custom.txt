@@ -1,4 +1,4 @@
-! updated: 2026-10-24 08:04 +0800
+! updated: 2026-10-25 08:00 +0800
 ! ==========================================================
 ! ADH 自定义拦截规则（AdGuard 语法）—— 由 adh_gist_sync.py 自动维护
 ! ==========================================================
@@ -433,6 +433,7 @@
 ||hlhbap-dnsotls-ds.metric.gstatic.com^
 ||hm.baidu.com^
 ||hotchat-im.iqiyi.com^
+||hpd.baidu.com^
 ||httpdns.baidubce.com^
 ||httpdns.bcelive.com^
 ||httpdns.kuaishou.com^
