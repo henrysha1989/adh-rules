@@ -1,4 +1,4 @@
-! updated: 2026-10-25 08:00 +0800
+! updated: 2026-10-26 08:01 +0800
 ! ==========================================================
 ! ADH 自定义拦截规则（AdGuard 语法）—— 由 adh_gist_sync.py 自动维护
 ! ==========================================================
@@ -243,6 +243,7 @@
 ||adtrack.quark.cn^
 ||adx-data-u1.ubixioe.com^
 ||adx.g.doubleclick.net^
+||aegis.qq.com^
 ||aeventlog.beacon.qq.com^
 ||afd.baidu.com^
 ||aj-bizlog.cn-qingdao.log.aliyuncs.com^
@@ -336,6 +337,7 @@
 ||cdn.exp.xiaomi.com^
 ||cdn.ynuf.aliapp.org^
 ||ce3e75d5.jpush.cn^
+||cfg.imtt.qq.com^
 ||cgicol.amap.com^
 ||chartboosts.com^
 ||client-upload.cn-shanghai.log.aliyuncs.com^
@@ -344,6 +346,7 @@
 ||cm-10-172.getui.com^
 ||cm.g.doubleclick.net^
 ||cmyd-10-128.getui.com^
+||cmyd-10-162.getui.com^
 ||cmyd-10-93.getui.com^
 ||cnam4c.cdn-settings.appsflyersdk.com^
 ||cnam4c.launches.appsflyersdk.com^
@@ -352,6 +355,7 @@
 ||config.jpush.cn^
 ||config2.cmpassport.com^
 ||cosmos-compass-api.immomo.com^
+||cpro.baidustatic.com^
 ||cr.adsappier.com^
 ||crash.xiaohongshu.com^
 ||crashlytics.com^
@@ -396,7 +400,6 @@
 ||ew0ctzt3vd.com^
 ||exp.notion.so^
 ||fclick.baidu.com^
-||fcmatch.youtube.com^
 ||feedback-c.zijieapi.com^
 ||feedguess.meituan.com^
 ||fiezmd-dnsotls-ds.metric.gstatic.com^
@@ -453,6 +456,7 @@
 ||im-x.jd.com^
 ||image-ad.sm.cn^
 ||images.pinduoduo.com^
+||img2.360buyimg.com^
 ||imp.voiceads.cn^
 ||increase-openapi.soulapp.cn^
 ||info.3g.qq.com^
