@@ -1,170 +1,31 @@
 ! ==========================================================
-! 字节系（ByteDance / 抖音·今日头条·西瓜·番茄·穿山甲）拦截清单
-! 由 shadowrocket-adr-rules/bytedance-ad.list 转换而来（ADH/AdGuard 语法）
-! 转换日期: 2026-10-31
-! 源文件: https://github.com/henrysha1989/shadowrocket-adr-rules/blob/main/bytedance-ad.list
+! 字节系（ByteDance / 抖音·今日头条·西瓜·番茄·穿山甲）拦截清单 —— 去重版
+! 源: shadowrocket-adr-rules/bytedance-ad.list（ADH/AdGuard 语法转换）
+! 更新: 2026-10-31  去重: 已剔除其他过滤器已覆盖的 198 条主机规则
 !
-! 语法映射：
-!   DOMAIN-SUFFIX,x  →  ||x^          （拦 x 及其全部子域）
-!   DOMAIN,x         →  |x^           （仅精确主机）
-!   DOMAIN,*x        →  /.*\.x$/      （通配前缀，正则）
-!   DOMAIN-KEYWORD,k →  /k/           （正则，含该关键字即拦）
+! 现状: 57 条主机规则 + 10 条正则规则（2 通配 / 8 关键字）= 67 条
+! 说明: 被剔除的条目在 Cats-Team / Advertising-blackmatrix7 / Privacy / adh-custom 等清单里已有，
+!       重复添加只会增加匹配耗时，不影响拦截效果。
 !
-! 用法：AdGuard Home → 过滤器 → DNS 过滤器 → 添加本文件 URL
+! 语法: ||x^ 后缀 | |x^ 精确 | /regex/ 正则（通配与关键字）
 ! ==========================================================
 !
 
-! updated: 2026-10-17 01:00 +0800
-! 条目来源与维护口径 → shadowrocket-config/配置说明.md「自建清单」一节
-||analytics.oceanengine.com^
-||api-access.pangolin-sdk-toutiao-b.com^
-||api-access.pangolin-sdk-toutiao.com^
-||api-access.pangolin-sdk-toutiao1.com^
-||log-api.pangolin-sdk-toutiao-b.com^
-||pangolin-sdk-toutiao-b.com^
-||pangolin-sdk-toutiao.com^
-||pangolin-sdk-toutiao1.com^
-||pglstatp-toutiao.com^
-||sf3-fe-tos.pglstatp-toutiao.com^
-||analytics.pangle-ads.com^
-||api-access.pangolin-sdk-toutiao2.com^
-||api-access.pangolin-sdk-toutiao3.com^
-||api-access.pangolin-sdk-toutiao4.com^
-||api-access.pangolin-sdk-toutiao5.com^
-||gromore.pangolin-sdk-toutiao.com^
-||lf3-ad-union-sdk.pglstatp-toutiao.com^
-||lf6-ad-union-sdk.pglstatp-toutiao.com^
-||log-api.pangolin-sdk-toutiao.com^
-||novel.pangolin-sdk-toutiao.com^
-||p1-be-pack-sign.pglstatp-toutiao.com^
-||p2-be-pack-sign.pglstatp-toutiao.com^
-||p3-be-pack-sign.pglstatp-toutiao.com^
-||p4-be-pack-sign.pglstatp-toutiao.com^
-||p5-be-pack-sign.pglstatp-toutiao.com^
-||p6-be-pack-sign.pglstatp-toutiao.com^
+! ── 主机规则（其他清单未覆盖）──
 ||pangle.cn^
-||pangolin-dsp-toutiao-b.com^
-||pangolin-dsp-toutiao.com^
 ||pangolin-hl.snssdk.com^
 ||pangolin-lf.snssdk.com^
 ||pangolin-lq.snssdk.com^
-||pangolin.snssdk.com^
 ||pglstatp-sdk-toutiao.com^
 ||pglstatp-snssdk-toutiao.com^
 ||pglstatp-toutiao-b.com^
-||sf1-be-pack.pglstatp-toutiao.com^
-||sf16-static.i18n-pglstatp.com^
-||sf3-be-pack.pglstatp-toutiao.com^
-||sf6-be-pack.pglstatp-toutiao.com^
-||applog.snssdk.com^
-||ctobsnssdk.com^
-||tnc3-bjlgy.snssdk.com^
-||tobapplog.ctobsnssdk.com^
-||toblog.ctobsnssdk.com^
-||2345api.dftoutiao.com^
-||2345apicode.dftoutiao.com^
-||abtest-ch.snssdk.com^
-||actlog.dftoutiao.com^
-||ad.toutiao.com^
-||ads.weilitoutiao.net^
 ||adshare.toutiao.com^
 ||analytics.snssdk.com^
-||bds.snssdk.com^
-||d.toutiao.com^
-||dm-hl.toutiao.com^
-||dm.pstatp.com^
-||dm.toutiao.com^
-||dsp.toutiao.com^
-||dspimg.dftoutiao.com^
-||extlog.snssdk.com^
-||gecko-hl.snssdk.com^
-||gecko-lq.snssdk.com^
-||gecko.snssdk.com^
-||ic.snssdk.com^
-||imgsreview.dftoutiao.com^
-||log3-normal-hl.toutiaoapi.com^
-||mcs.snssdk.com^
-||mercury-sdk.snssdk.com^
-||mon.snssdk.com^
-||monsetting.toutiao.com^
-||nativeapp.toutiao.com^
-||newswifiapi.dftoutiao.com^
-||open.snssdk.com^
 ||os-mon.snssdk.com^
-||pageshow.dftoutiao.com^
 ||panplayable-toutiao-b.com^
 ||panplayable-toutiao.com^
-||partner.toutiao.com^
-||pb3.pstatp.com^
-||pclog.dftoutiao.com^
-||pcminitj.dftoutiao.com^
-||pcsoftwords.dftoutiao.com^
-||position.dftoutiao.com^
-||reportlog.dftoutiao.com^
 ||sdfp.snssdk.com^
-||sh996.dftoutiao.com^
-||shzzzz.dftoutiao.com^
-||sm.toutiao.com^
-||success.ctobsnssdk.com^
-||tbm.snssdk.com^
-||temai.snssdk.com^
-||tnc3-aliec1.toutiaoapi.com^
-||tnc3-aliec2.snssdk.com^
-||tnc3-aliec2.toutiaoapi.com^
-||tnc3-alisc1.snssdk.com^
-||tnc3-alisc1.toutiaoapi.com^
-||tnc3-bjlgy.toutiaoapi.com^
-||toblog.snssdk.com^
-||toutiao-frontier.snssdk.com^
-||toutiao.jxnews.com.cn^
-||toutiaopage.com^
-||tsearch.snssdk.com^
-||ug.snssdk.com^
-||unionstatis.dftoutiao.com^
 ||vas-hl-x.snssdk.com^
-||xlog.snssdk.com^
-||myzhongguojie.cn^
-||shijuezhongguo.cdn.bcebos.com^
-||woaizhongguo.cdn111222.com^
-||www.myzhongguojie.cn^
-||app.mktg.novell.com^
-||b.flyreading.cn^
-||basic-novel.pro^
-||bestbiddingnovel.com^
-||dollyspreadingbeer.com^
-||info.readingpartners.org^
-||infoco.readingpartners.org^
-||infodc.readingpartners.org^
-||infola.readingpartners.org^
-||infontx.readingpartners.org^
-||infonyc.readingpartners.org^
-||infosea.readingpartners.org^
-||infosfba.readingpartners.org^
-||infotc.readingpartners.org^
-||infotul.readingpartners.org^
-||log.webnovel.com^
-||marketing.novelcoworking.com^
-||marketing.readinghorizons.com^
-||novelpair.com^
-||novelsns.html5.qq.com^
-||novelty.media^
-||noveltyensue.com^
-||read.lightreading.com^
-||readingguilt.com^
-||readingpartners.actonservice.com^
-||scareshortnovel.com^
-||shockingstrategynovelty.com^
-||sstats.newworldsreading.com^
-||triumphantthingsreading.com^
-||trk.darkreading.com^
-||trk.lightreading.com^
-||trk.novelis.com^
-||withdrawalbellownovel.com^
-||api5-normal-quic-lf.ixigua.com^
-||search.ixigua.com^
-||search3-search.ixigua.com^
-||search5-search-hl.ixigua.com^
-||search5-search.ixigua.com^
 ||v1-ad.ixigua.com^
 ||v1-dc-ad.ixigua.com^
 ||v3-ad.ixigua.com^
@@ -173,37 +34,7 @@
 ||v6-dc-ad.ixigua.com^
 ||v9-ad.ixigua.com^
 ||v9-dc-ad.ixigua.com^
-||ads3-normal-lq.zijieapi.com^
-||ads5-normal-lf.zijieapi.com^
-||ads5-normal-lq.zijieapi.com^
-||mon.zijieapi.com^
-||tnc3-aliec2.zijieapi.com^
-||ad.zijieapi.com^
-||ads3-normal-hl.zijieapi.com^
-||ads3-normal.zijieapi.com^
-||ads5-normal-hl.zijieapi.com^
-||ads5-normal.zijieapi.com^
-||dm.bytedance.com^
-||log.zijieapi.com^
-||mcs.zijieapi.com^
-||mssdk-bu.bytedance.com^
-||mssdk.zijieapi.com^
-||p3-tt.byteimg.com^
-||tnc0-bjlgy.zijieapi.com^
-||tnc3-aliec1.zijieapi.com^
-||tnc3-aliec2.bytedance.com^
-||tnc3-alisc1.bytedance.com^
-||tnc3-bjlgy.bytedance.com^
-/\.*default\.ixigua\.com$/
-/\.*novelapp\.ixigua\.com$/
-|activity-ag.awemeughun.com^
-|api.iegadp.qq.com^
-|msync-im1-vip6-std.easemob.com^
-|p6-ad-sign.byteimg.com^
-|p9-ad-sign.byteimg.com^
-|security-lq.snssdk.com^
 |sf3-ttcdn-tos.pstatp.com^
-|v6-novelapp.ixigua.com^
 ||ec3-core-lf.ecombdapi.com^
 ||ec3-core-lq.ecombdapi.com^
 ||ec5-core-hl.ecombdapi.com^
@@ -228,6 +59,20 @@
 ||lianmengapi5-core-hl.ecombdapi.com^
 ||ecom3-normal-m-hj.ecombdapi.com^
 ||ecom3-normal-zb.ecombdapi.com^
+|i.snssdk.com^
+||mon.toutiao.com^
+||rtlog.zijieapi.com^
+||thanos.zijieapi.com^
+||rtlog.snssdk.com^
+||rtapplog.snssdk.com^
+||log.bytedance.net^
+||report.snssdk.com^
+|rtlog5-applog-hl.amemv.com^
+||v96-reading-ad.qznovelvod.com^
+
+! ── 正则规则（2 通配 + 8 关键字，未做覆盖检测）──
+/\.*default\.ixigua\.com$/
+/\.*novelapp\.ixigua\.com$/
 /reading-ad/
 /-ad-sign/
 /ads-normal/
@@ -236,52 +81,3 @@
 /-applog/
 /live-player-log/
 /-reading-sign/
-|i.snssdk.com^
-||ad.fqnovel.com^
-||ads3-normal-lf.zijieapi.com^
-||applog.zijieapi.com^
-||log0-misc-hl.amemv.com^
-||logbk.amemv.com^
-||mon11-misc-lf.fqnovel.com^
-||mon11-misc-lq.fqnovel.com^
-||mon3-misc-lf.fqnovel.com^
-||rtlog5-applog-lf.fqnovel.com^
-||v11-reading-ad.qznovelvod.com^
-||v13-reading-ad.qznovelvod.com^
-||v26-reading-ad.qznovelvod.com^
-||v5-bd-daily-reading-ad.qznovelvod.com^
-||v5-ex-reading-ad.qznovelvod.com^
-||v5-se-sjy-daily-reading-ad.qznovelvod.com^
-||v6-daily-reading-ad.qznovelvod.com^
-||v6-reading-ad.qznovelvod.com^
-||v9-reading-ad.qznovelvod.com^
-||v95-aw-reading-ad.qznovelvod.com^
-||v95-se-zjwztc-reading-ad.qznovelvod.com^
-||v95-zjjx2tc-reading-ad.qznovelvod.com^
-||v96-sz-daily-reading-ad.qznovelvod.com^
-||mon.toutiaocloud.com^
-||mon.toutiaocloud.net^
-||mon3-misc.fqnovel.com^
-||mon11-misc.fqnovel.com^
-||timon.zijieapi.com^
-||log.snssdk.com^
-||mon.toutiao.com^
-||rtlog.zijieapi.com^
-||thanos.zijieapi.com^
-||rtlog.snssdk.com^
-||rtapplog.snssdk.com^
-||log.bytedance.net^
-||report.snssdk.com^
-||volceapplog.com^
-||qiezibenpao.com^
-||log-hl.snssdk.com^
-||log-klink.zijieapi.com^
-! 2026-10-19 从 clash-for-ios-config 的 4b 内联段迁入（抖音埋点，lite 表不含 hl 变体）
-|rtlog5-applog-hl.amemv.com^
-
-! ===== 自动收集（以下内容由脚本管理，勿手改）=====
-||log5-applog-lf.fqnovel.com^
-||mon0-misc-lf.amemv.com^
-||p3-ad-sign.byteimg.com^
-||v96-reading-ad.qznovelvod.com^
-
