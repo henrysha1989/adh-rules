@@ -1,4 +1,4 @@
-! updated: 2026-10-29 08:02 +0800
+! updated: 2026-10-31 16:06 +0800
 ! ==========================================================
 ! ADH 自定义拦截规则（AdGuard 语法）—— 由 adh_gist_sync.py 自动维护
 ! ==========================================================
@@ -184,6 +184,8 @@
 ||51086kldxjjs.lurhtbf.com^
 ||66mobi.com^
 ||8hvq8jskh.com^
+||_im64._tcp.jpush.cn^
+||_psis._udp.jpush.cn^
 ||a.fxltsbl.com^
 ||a.pub.network^
 ||abtest-ch.snssdk.com^
@@ -213,12 +215,15 @@
 ||adlog.e.kuaishou.com^
 ||adm-smc-cn.heytapmobi.com^
 ||adnxs-simple.com^
+||adpai.thepaper.cn^
+||ads-i10.xhscdn.com^
 ||ads-i2.xhscdn.com^
 ||ads-i3.xhscdn.com^
 ||ads-img-al.xhscdn.com^
 ||ads-img-bak.xhscdn.com^
 ||ads-video-al.xhscdn.com^
 ||ads-vp5.xhscdn.com^
+||ads.cup.com.cn^
 ||ads.soulapp.cn^
 ||ads3-normal-hl.zijieapi.com^
 ||ads3-normal-lf.zijieapi.com^
@@ -248,6 +253,7 @@
 ||amdc-sibling.alipay.com.cn^
 ||amdc.alipay.com^
 ||amdcopen.m.umeng.com^
+||analytics.95516.com^
 ||analytics.adjust.com^
 ||analytics.adjust.net.in^
 ||analytics.adjust.world^
@@ -277,6 +283,8 @@
 ||api.tw06.xlmc.sec.miui.com^
 ||api.verify.mob.com^
 ||api.yunxish.com^
+||apikey.map.qq.com^
+||apm-fe.xiaohongshu.com^
 ||apm-native.xiaohongshu.com^
 ||apmplus.volces.com^
 ||app-analytics-services.com^
@@ -298,6 +306,7 @@
 ||badjs.weixinbridge.com^
 ||bbs.alipansou.com^
 ||bda.umetrip.com^
+||bdimg.share.baidu.com^
 ||beacon.cdn.qq.com^
 ||beaconcdn.qq.com^
 ||bedwlzqwkxpzfc.com^
@@ -326,6 +335,7 @@
 ||cdn-api-verify.mob.com^
 ||cdn.exp.xiaomi.com^
 ||cdn.ynuf.aliapp.org^
+||ce3e75d5-ipv6.jpush.cn^
 ||ce3e75d5.jpush.cn^
 ||cfg.imtt.qq.com^
 ||cgicol.amap.com^
@@ -337,11 +347,14 @@
 ||cm.g.doubleclick.net^
 ||cmyd-10-128.getui.com^
 ||cmyd-10-162.getui.com^
+||cmyd-10-91.getui.com^
 ||cmyd-10-93.getui.com^
 ||cnam4c.cdn-settings.appsflyersdk.com^
 ||cnam4c.launches.appsflyersdk.com^
 ||cnlogs.umeng.com^
 ||cnlogs.umengcloud.com^
+||config-ipv6.jpush.cn^
+||config.cmpassport.com^
 ||config.jpush.cn^
 ||config2.cmpassport.com^
 ||cosmos-compass-api.immomo.com^
@@ -349,6 +362,7 @@
 ||cr.adsappier.com^
 ||crash.xiaohongshu.com^
 ||crashlytics.com^
+||cross.report.tgp.qq.com^
 ||ct.pinterest.com^
 ||d.qchannel03.cn^
 ||da.mmarket.com^
@@ -388,6 +402,7 @@
 ||events.reddit.com^
 ||ew0ctzt3vd.com^
 ||exp.notion.so^
+||ext.baidu.com^
 ||fclick.baidu.com^
 ||feedback-c.zijieapi.com^
 ||feedguess.meituan.com^
@@ -504,6 +519,7 @@
 ||loggw-ex.alipay.com^
 ||logrcv.yunxish.com^
 ||logs.amap.com^
+||logs.game.qq.com^
 ||logs.ironsrc.mobi^
 ||logservice.hicloud.com^
 ||logservice1.dbankcloud.cn^
@@ -521,6 +537,7 @@
 ||mcc.inf.miui.com^
 ||mcs.snssdk.com^
 ||mcs.zijieapi.com^
+||md-data-u1.ubixioe.com^
 ||mddlsa.com^
 ||mediadata.xuexi.cn^
 ||metrics-ad-drcn.dt.hihonorcloud.com^
@@ -528,6 +545,7 @@
 ||metrics-drcn.dt.dbankcloud.cn^
 ||metrics-drcn.dt.hihonorcloud.com^
 ||metrics.dt.hihonorcloud.com^
+||metrics.icloud.com^
 ||metrics1-drcn.dt.dbankcloud.cn^
 ||metrics1.data.dbankcloud.cn^
 ||metrics1.data.hicloud.com^
@@ -552,6 +570,7 @@
 ||mon11-misc-lf.amemv.com^
 ||mon11-misc-lf.novelfm.com^
 ||mon11-misc-lq.toutiaoapi.com^
+||monitor.ipv6-tantanapp.com.master.vip.tantanapp.com^
 ||monitor.music.qq.com^
 ||monsetting.toutiao.com^
 ||msch.f.360.cn^
@@ -567,6 +586,7 @@
 ||nsp-logservice-weardevice-p51-drcn.obs.cn-north-2.myhuaweicloud.com^
 ||odf.app-ads-services.com^
 ||odm.app-ads-services.com^
+||omgid.qq.com^
 ||onethingpcs.com^
 ||opactivity.umetrip.com^
 ||open.e.kuaishou.com^
@@ -623,6 +643,7 @@
 ||queniuck.com^
 ||qzs.gdtimg.com^
 ||rcv.aiclk.com^
+||report.tantanapp.com^
 ||report.tencentmusic.com^
 ||report.trade.weixin.qq.com^
 ||resolve.umeng.com^
@@ -631,6 +652,7 @@
 ||rmonitor.qq.com^
 ||roovza.cdn-settings.appsflyersdk.com^
 ||roovza.launches.appsflyersdk.com^
+||roovza.skadsdk.appsflyersdk.com^
 ||rtlog22-normal-alisg.tiktokv.com^
 ||rtlog3-applog-hl.amemv.com^
 ||rumt-zh.com^
@@ -639,6 +661,7 @@
 ||s.jpush.cn^
 ||sa3.tuisong.baidu.com^
 ||saveu5-normal-lq.zijieapi.com^
+||sc-report.tantanapp.com^
 ||sdk-open-phone.getui.com^
 ||sdk.1rtb.net^
 ||sdk.adx.adwangmai.com^
@@ -648,16 +671,20 @@
 ||sdk.open.talk.getui.com^
 ||sdk.open.talk.getui.net^
 ||sdk.ptqy.gitv.tv^
+||sdk.verification.jiguang.cn^
 ||sdk.zhangyuyidong.cn^
 ||sdkconf.avlyun.com^
 ||sdkconfig.video.qq.com^
+||sdkconfig.xiaomi.com^
 ||sdkfp.jd.com^
 ||sdklog.zhangyuyidong.cn^
 ||sdkquic.e.qq.com^
 ||sdkreport.e.qq.com^
+||seiya.tantanapp.com^
 ||servicecut.meizu.com^
 ||sgm-m.jd.com^
 ||shark-tracer.netease.com^
+||show.re.taobao.com^
 ||sis-ipv6.jpush.cn^
 ||sis.jpush.io^
 ||sjxydc.com^
@@ -667,6 +694,7 @@
 ||sofire.baidu.com^
 ||sp0.baidu.com^
 ||sp1.baidu.com^
+||sp2.baidu.com^
 ||spider-tracker.xiaohongshu.com^
 ||splash.soulapp.cn^
 ||spread.wtzw.com^
@@ -679,6 +707,7 @@
 ||static.cloudflareinsights.com^
 ||stats-ipv6.jpush.cn^
 ||stats.jpush.cn^
+||status-ipv6.jpush.cn^
 ||statusapi.micloud.xiaomi.net^
 ||store.is.autonavi.com^
 ||t-cfg.wtzw.com^
@@ -708,6 +737,7 @@
 ||tjjs.wtzw.com^
 ||tk2.vlion.cn^
 ||tmead.y.qq.com^
+||tnc-boot.tiktokv.com^
 ||tnc0-aliec2.zijieapi.com^
 ||tnc0-alisc1.zijieapi.com^
 ||tnc0-normal-alisg.tiktokv.com^
@@ -729,6 +759,7 @@
 ||tracker.soulapp.cn^
 ||trackercollect.ddxq.mobi^
 ||tracking.miui.com^
+||tsis-ipv6.jpush.cn^
 ||tsis.jpush.cn^
 ||tz.sec.xiaomi.com^
 ||ug.baidu.com^
@@ -743,10 +774,12 @@
 ||umeng-cn-shenzhen520.cn-shenzhen.log.aliyuncs.com^
 ||umengacs.m.taobao.com^
 ||umestartup.umetrip.com^
+||umini.shujupie.com^
 ||unicom.shuzilm.cn^
 ||up-hl.3g.qq.com^
 ||update.avlyun.sec.miui.com^
 ||us.l.qq.com^
+||user-ipv6.jpush.cn^
 ||user.jpush.cn^
 ||utoken.umeng.com^
 ||uxip.meizu.com^
@@ -759,6 +792,8 @@
 ||v3.gdt.qq.com^
 ||v5-reading-ad.qznovelvod.com^
 ||vcs.zijieapi.com^
+||vhdezl.launches.appsflyersdk.com^
+||vhdezl.skadsdkless.appsflyersdk.com^
 ||vi.l.qq.com^
 ||vmat.gtimg.com^
 ||volceapplog.com^
@@ -770,8 +805,10 @@
 ||vv.video.qq.com^
 ||w3-reporting.reddit.com^
 ||waapdg.jd.com^
+||wcp.taobao.com^
 ||wdaa.shuzilm.cn^
 ||we-material.cn-wulanchabu.log.aliyuncs.com^
+||weather-analytics-events.apple.com^
 ||webn.cc^
 ||wetelemetry.weixin.qq.com^
 ||win.gdt.qq.com^
