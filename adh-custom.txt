@@ -1,4 +1,4 @@
-! updated: 2026-10-31 16:06 +0800
+! updated: 2026-11-01 08:03 +0800
 ! ==========================================================
 ! ADH 自定义拦截规则（AdGuard 语法）—— 由 adh_gist_sync.py 自动维护
 ! ==========================================================
@@ -216,9 +216,11 @@
 ||adm-smc-cn.heytapmobi.com^
 ||adnxs-simple.com^
 ||adpai.thepaper.cn^
+||ads-i1.xhscdn.com^
 ||ads-i10.xhscdn.com^
 ||ads-i2.xhscdn.com^
 ||ads-i3.xhscdn.com^
+||ads-i8.xhscdn.com^
 ||ads-img-al.xhscdn.com^
 ||ads-img-bak.xhscdn.com^
 ||ads-video-al.xhscdn.com^
@@ -273,6 +275,7 @@
 ||api-nps.wtzw.com^
 ||api.ad.xiaomi.com^
 ||api.afdback.ppsimg.com^
+||api.device.xiaomi.net^
 ||api.df.mob.com^
 ||api.e.kuaishou.com^
 ||api.g.micloud.xiaomi.net^
@@ -320,6 +323,7 @@
 ||bro.flyme.cn^
 ||btrace.qq.com^
 ||btrace.yangshipin.cn^
+||busuanzi.ibruce.info^
 ||buttons.reddit.com^
 ||bv.lnk0.com^
 ||c-gtc.getui.net^
@@ -347,6 +351,7 @@
 ||cm.g.doubleclick.net^
 ||cmyd-10-128.getui.com^
 ||cmyd-10-162.getui.com^
+||cmyd-10-163.getui.com^
 ||cmyd-10-91.getui.com^
 ||cmyd-10-93.getui.com^
 ||cnam4c.cdn-settings.appsflyersdk.com^
@@ -370,6 +375,7 @@
 ||data-collector.soulapp.cn^
 ||data-sdk-uuid-log.d.meituan.net^
 ||data.ab.qq.com^
+||data.bilibili.com^
 ||data.sec.miui.com^
 ||dc.sigmob.cn^
 ||device-security-url.jd.com^
@@ -463,6 +469,7 @@
 ||ipv4.gdt.qq.com^
 ||ipv6.shuzilm.cn^
 ||ir-sdk.dun.163.com^
+||iwan-s.video.qq.com^
 ||janapi.jd.com^
 ||jhgsa.lantsc.xn--czru2dx3eszw3lat53b.com^
 ||jomodns.cn^
@@ -550,6 +557,7 @@
 ||metrics1.data.dbankcloud.cn^
 ||metrics1.data.hicloud.com^
 ||mi.gdt.qq.com^
+||minigame5-normal-hl.zijieapi.com^
 ||minigame5-normal-lq.zijieapi.com^
 ||mkt-cdn.wtzw.com^
 ||mkt.wtzw.com^
@@ -604,11 +612,13 @@
 ||p3-ad.adukwai.com^
 ||p4-ad.adkwai.com^
 ||p5-ad.adkwai.com^
+||p6-ad-sign.byteimg.com^
 ||p66-ad.adkwai.com^
 ||p9-ad-sign.byteimg.com^
 ||paas-push-api-log.immomo.com^
 ||paas-push-api.immomo.com^
 ||pagead2.googlesyndication.com^
+||pangle.cn^
 ||pangolin-sdk-toutiao-b.com^
 ||pangolin-sdk-toutiao.com^
 ||pangolin-sdk-toutiao1.com^
@@ -727,6 +737,7 @@
 ||techain.baidu.com^
 ||telecom.shuzilm.cn^
 ||telemetry.proton.me^
+||test-reading-ad.example.com^
 ||th.pinduoduo.com^
 ||thm.market.xiaomi.com^
 ||tianshu.gtimg.cn^
