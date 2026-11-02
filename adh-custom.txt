@@ -1,4 +1,4 @@
-! updated: 2026-11-01 08:03 +0800
+! updated: 2026-11-02 16:04 +0800
 ! ==========================================================
 ! ADH 自定义拦截规则（AdGuard 语法）—— 由 adh_gist_sync.py 自动维护
 ! ==========================================================
@@ -193,6 +193,7 @@
 ||abtest.wtzw.com^
 ||abtest3-misc-hl.zijieapi.com^
 ||abtest3-misc-lq.zijieapi.com^
+||acs4baichuan.m.taobao.com^
 ||ad-api.adn-plus.com.cn^
 ||ad-drcn.media.dbankcloud.cn^
 ||ad-static.soulapp.cn^
@@ -304,6 +305,7 @@
 ||auni.telecome.cn^
 ||auth.be.sec.miui.com^
 ||awaken.amap.com^
+||b-gtc.gepush.com^
 ||b.scorecardresearch.com^
 ||babel-statistics-android.dreport.meituan.net^
 ||badjs.weixinbridge.com^
@@ -327,17 +329,20 @@
 ||buttons.reddit.com^
 ||bv.lnk0.com^
 ||c-gtc.getui.net^
+||c-hzgt2.getui.com^
 ||c5mj81yuuo.com^
 ||cactus.jd.com^
 ||canvas-cdn.gdt.qq.com^
 ||catfront.dianping.com^
 ||cbjs.baidu.com^
 ||cbsipv4.shuzilm.cn^
+||ccc-x.jd.com^
 ||ccc.sys.miui.com^
 ||ccfjma.m.jd.com^
 ||ccs.umeng.com^
 ||cdn-api-verify.mob.com^
 ||cdn.exp.xiaomi.com^
+||cdn.fds.api.xiaomi.com^
 ||cdn.ynuf.aliapp.org^
 ||ce3e75d5-ipv6.jpush.cn^
 ||ce3e75d5.jpush.cn^
@@ -378,6 +383,7 @@
 ||data.bilibili.com^
 ||data.sec.miui.com^
 ||dc.sigmob.cn^
+||decotik.de^
 ||device-security-url.jd.com^
 ||dfe.mic.mob.com^
 ||dianomi.com^
@@ -476,7 +482,9 @@
 ||jpushsc.m.jd.com^
 ||jspcdn.cn^
 ||jupiter.sys.miui.com^
+||kepler.jd.com^
 ||khgsb.lantsc.xn--czru2dx3eszw3lat53b.com^
+||knicks.jd.com^
 ||kuiniuca.com^
 ||l-rcd.iqiyi.com^
 ||ldhy.click^
@@ -537,6 +545,7 @@
 ||m.reachmax.cn^
 ||ma.zijieapi.com^
 ||madx.flyme.cn^
+||mapi.m.jd.com^
 ||mars.jd.com^
 ||master.wap.dphub.sandai.net^
 ||material-client.cn-wulanchabu.log.aliyuncs.com^
@@ -623,6 +632,7 @@
 ||pangolin-sdk-toutiao.com^
 ||pangolin-sdk-toutiao1.com^
 ||pangolin.snssdk.com^
+||paulocuenca.com.br^
 ||pc-mon.snssdk.com^
 ||pcapp-data-collect.youku.com^
 ||perf.m.jd.com^
@@ -672,6 +682,7 @@
 ||sa3.tuisong.baidu.com^
 ||saveu5-normal-lq.zijieapi.com^
 ||sc-report.tantanapp.com^
+||schedule-media.immomo.com^
 ||sdk-open-phone.getui.com^
 ||sdk.1rtb.net^
 ||sdk.adx.adwangmai.com^
@@ -690,15 +701,18 @@
 ||sdklog.zhangyuyidong.cn^
 ||sdkquic.e.qq.com^
 ||sdkreport.e.qq.com^
+||sec.umeng.com^
 ||seiya.tantanapp.com^
 ||servicecut.meizu.com^
 ||sgm-m.jd.com^
+||sgm-w.jd.com^
 ||shark-tracer.netease.com^
 ||show.re.taobao.com^
 ||sis-ipv6.jpush.cn^
 ||sis.jpush.io^
 ||sjxydc.com^
 ||slb-p2p.vcloud.ks-live.com^
+||smartop-sdkapi-ipv6.jiguang.cn^
 ||smartop-sdkapi.jiguang.cn^
 ||snowflake.qq.com^
 ||sofire.baidu.com^
@@ -712,6 +726,7 @@
 ||ssp.1rtb.com^
 ||ssp.soulapp.cn^
 ||stat.moji.com^
+||stat.youpin.mi.com^
 ||stat6.y.qq.com^
 ||static-s.iqiyi.com^
 ||static.cloudflareinsights.com^
@@ -789,6 +804,7 @@
 ||unicom.shuzilm.cn^
 ||up-hl.3g.qq.com^
 ||update.avlyun.sec.miui.com^
+||uranus.jd.com^
 ||us.l.qq.com^
 ||user-ipv6.jpush.cn^
 ||user.jpush.cn^
