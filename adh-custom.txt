@@ -1,4 +1,4 @@
-! updated: 2026-11-03 08:03 +0800
+! updated: 2026-11-04 08:03 +0800
 ! ==========================================================
 ! ADH 自定义拦截规则（AdGuard 语法）—— 由 adh_gist_sync.py 自动维护
 ! ==========================================================
@@ -255,6 +255,7 @@
 ||amap-aos-info-nogw.amap.com^
 ||amdc-sibling.alipay.com.cn^
 ||amdc.alipay.com^
+||amdcopen.m.taobao.com^
 ||amdcopen.m.umeng.com^
 ||analytics.95516.com^
 ||analytics.adjust.com^
@@ -404,9 +405,12 @@
 ||dsp.pinduoduo.com^
 ||dsp.qimao.com^
 ||dualstack-logs.amap.com^
+||dup.baidustatic.com^
 ||e-u1.ubixioe.com^
 ||e.cn.miaozhen.com^
 ||easytomessage.com^
+||eclick.baidu.com^
+||em.baidu.com^
 ||emoticon-sns.iqiyi.com^
 ||entry-su1.ubixioe.com^
 ||errnewlog.umeng.com^
@@ -800,6 +804,7 @@
 ||ulogs2.ksapisrv.com^
 ||umeng-cn-shenzhen520.cn-shenzhen.log.aliyuncs.com^
 ||umengacs.m.taobao.com^
+||umengjmacs.m.taobao.com^
 ||umestartup.umetrip.com^
 ||umini.shujupie.com^
 ||unicom.shuzilm.cn^
@@ -812,6 +817,7 @@
 ||utoken.umeng.com^
 ||uxip.meizu.com^
 ||v.miguvideo.com^
+||v1.cnzz.com^
 ||v1.log.moji.com^
 ||v2.aiclk.com^
 ||v2.gdt.qq.com^
