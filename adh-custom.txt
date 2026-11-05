@@ -1,4 +1,4 @@
-! updated: 2026-11-04 08:03 +0800
+! updated: 2026-11-05 08:03 +0800
 ! ==========================================================
 ! ADH 自定义拦截规则（AdGuard 语法）—— 由 adh_gist_sync.py 自动维护
 ! ==========================================================
@@ -257,6 +257,7 @@
 ||amdc.alipay.com^
 ||amdcopen.m.taobao.com^
 ||amdcopen.m.umeng.com^
+||an.kejet.net^
 ||analytics.95516.com^
 ||analytics.adjust.com^
 ||analytics.adjust.net.in^
@@ -370,6 +371,7 @@
 ||config.jpush.cn^
 ||config2.cmpassport.com^
 ||cosmos-compass-api.immomo.com^
+||countly.mail.163.com^
 ||cpro.baidustatic.com^
 ||cr.adsappier.com^
 ||crash.xiaohongshu.com^
@@ -464,6 +466,7 @@
 ||huichuan-mc.sm.cn^
 ||huichuan.sm.cn^
 ||i.gridsumdissector.com^
+||i.kejet.net^
 ||i.qchannel03.cn^
 ||iadsdk.apple.com^
 ||idm.iot.mi.com^
@@ -494,10 +497,14 @@
 ||l-rcd.iqiyi.com^
 ||ldhy.click^
 ||lelzbtm2o.com^
+||lf3-analytics.bytescm.com^
 ||lftxali.fancyapi.com^
 ||lh3.googleadsserving.cn^
 ||libs.baidu.com^
+||lippi-doc-portal-frontend.cn-hangzhou.log.aliyuncs.com^
 ||lippi-doc-we-collab.cn-zhangjiakou.log.aliyuncs.com^
+||lippi-preview-frontend.cn-zhangjiakou.log.aliyuncs.com^
+||lippi-report-sls.cn-zhangjiakou-2.log.aliyuncs.com^
 ||lippi-suite-common-log.cn-shanghai.log.aliyuncs.com^
 ||live-api.immomo.com^
 ||live-log.immomo.com^
@@ -547,6 +554,7 @@
 ||logupdate.avlyun.sec.miui.com^
 ||logv2.ireader.com^
 ||luckycat.byteimg.com^
+||m.kejet.net^
 ||m.reachmax.cn^
 ||ma.zijieapi.com^
 ||madx.flyme.cn^
@@ -614,6 +622,7 @@
 ||open.e.kuaishou.com^
 ||openadapi.fancydsp.com^
 ||optimus-ads.amap.com^
+||orbit.jd.com^
 ||oss.cdn.aiclk.com^
 ||oth.bls.mdt.qq.com^
 ||oth.eve.mdt.qq.com^
@@ -650,6 +659,7 @@
 ||policy.video.iqiyi.com^
 ||poplayer.template.alibaba.com^
 ||port.sec.miui.com^
+||pr.nss.netease.com^
 ||pubads.g.doubleclick.net^
 ||pulse.jpush.cn^
 ||punch.p2p.qq.com^
@@ -667,7 +677,9 @@
 ||qsb.browser.miui.com^
 ||queniuck.com^
 ||qzs.gdtimg.com^
+||r.mail.163.com^
 ||rcv.aiclk.com^
+||report.radio.cn^
 ||report.tantanapp.com^
 ||report.tencentmusic.com^
 ||report.trade.weixin.qq.com^
@@ -716,6 +728,7 @@
 ||sis-ipv6.jpush.cn^
 ||sis.jpush.io^
 ||sjxydc.com^
+||sla-media.immomo.com^
 ||slb-p2p.vcloud.ks-live.com^
 ||smartop-sdkapi-ipv6.jiguang.cn^
 ||smartop-sdkapi.jiguang.cn^
@@ -730,6 +743,7 @@
 ||sq.bls.mdt.qq.com^
 ||ssp.1rtb.com^
 ||ssp.soulapp.cn^
+||stat.mail.163.com^
 ||stat.moji.com^
 ||stat.youpin.mi.com^
 ||stat6.y.qq.com^
@@ -793,6 +807,7 @@
 ||tsis-ipv6.jpush.cn^
 ||tsis.jpush.cn^
 ||tz.sec.xiaomi.com^
+||udpolimenew.baidu.com^
 ||ug.baidu.com^
 ||ugsdk.cn^
 ||ulogjs.gifshow.com^
