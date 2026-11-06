@@ -1,4 +1,4 @@
-! updated: 2026-11-05 08:03 +0800
+! updated: 2026-11-06 16:05 +0800
 ! ==========================================================
 ! ADH 自定义拦截规则（AdGuard 语法）—— 由 adh_gist_sync.py 自动维护
 ! ==========================================================
@@ -217,6 +217,7 @@
 ||adm-smc-cn.heytapmobi.com^
 ||adnxs-simple.com^
 ||adpai.thepaper.cn^
+||ads-drcn.platform.hihonorcloud.com^
 ||ads-i1.xhscdn.com^
 ||ads-i10.xhscdn.com^
 ||ads-i2.xhscdn.com^
@@ -241,6 +242,8 @@
 ||adsmind.gdtimg.com^
 ||adsmind.ugdtimg.com^
 ||adtrack.quark.cn^
+||adtrack.xiaojukeji.com^
+||advertise.baicizhan.com^
 ||adx-data-u1.ubixioe.com^
 ||adx.g.doubleclick.net^
 ||aegis.qq.com^
@@ -371,6 +374,7 @@
 ||config.jpush.cn^
 ||config2.cmpassport.com^
 ||cosmos-compass-api.immomo.com^
+||count.mail.163.com^
 ||countly.mail.163.com^
 ||cpro.baidustatic.com^
 ||cr.adsappier.com^
@@ -412,12 +416,14 @@
 ||e.cn.miaozhen.com^
 ||easytomessage.com^
 ||eclick.baidu.com^
+||ecmb.bdimg.com^
 ||em.baidu.com^
 ||emoticon-sns.iqiyi.com^
 ||entry-su1.ubixioe.com^
 ||errnewlog.umeng.com^
 ||etl-xlmc-ssl.sandai.net^
 ||events-drcn.op.dbankcloud.cn^
+||events.baicizhan.com^
 ||events.reddit.com^
 ||ew0ctzt3vd.com^
 ||exp.notion.so^
@@ -433,6 +439,7 @@
 ||fourier.taobao.com^
 ||fp-it.fengkongcloud.com^
 ||fp.tongdun.net^
+||fxgate.baidu.com^
 ||g.cn.miaozhen.com^
 ||galileotelemetry.tencent.com^
 ||game.eve.mdt.qq.com^
@@ -465,6 +472,7 @@
 ||hub5pn.wap.sandai.net^
 ||huichuan-mc.sm.cn^
 ||huichuan.sm.cn^
+||hyt.comp.360os.com^
 ||i.gridsumdissector.com^
 ||i.kejet.net^
 ||i.qchannel03.cn^
@@ -477,6 +485,7 @@
 ||images.pinduoduo.com^
 ||img2.360buyimg.com^
 ||imp.voiceads.cn^
+||impdsp.meituan.com^
 ||increase-openapi.soulapp.cn^
 ||info.3g.qq.com^
 ||intake-analytics.wikimedia.org^
@@ -519,6 +528,7 @@
 ||log-sdk.ksapisrv.com^
 ||log-verify.mob.com^
 ||log.avlyun.com^
+||log.doubao.com^
 ||log.pinterest.com^
 ||log.snssdk.com^
 ||log.soulapp.cn^
@@ -611,12 +621,15 @@
 ||mssdk3-normal-lq.zijieapi.com^
 ||mtrace.ysp.cctv.cn^
 ||muf.app-ads-services.com^
+||norma-external-collect.meizu.com^
 ||nsclick.baidu.com^
 ||nsp-logservice-hiview-p43-drcn.obs.cn-north-2.myhuaweicloud.com^
 ||nsp-logservice-weardevice-p51-drcn.obs.cn-north-2.myhuaweicloud.com^
 ||odf.app-ads-services.com^
 ||odm.app-ads-services.com^
 ||omgid.qq.com^
+||omgup.xiaojukeji.com^
+||omgup1.xiaojukeji.com^
 ||onethingpcs.com^
 ||opactivity.umetrip.com^
 ||open.e.kuaishou.com^
@@ -660,6 +673,7 @@
 ||poplayer.template.alibaba.com^
 ||port.sec.miui.com^
 ||pr.nss.netease.com^
+||proj-xtrace-c7ce1aa822f31b279d6b47e36d65157-cn-hangzhou.cn-hangzhou.log.aliyuncs.com^
 ||pubads.g.doubleclick.net^
 ||pulse.jpush.cn^
 ||punch.p2p.qq.com^
@@ -690,6 +704,7 @@
 ||roovza.cdn-settings.appsflyersdk.com^
 ||roovza.launches.appsflyersdk.com^
 ||roovza.skadsdk.appsflyersdk.com^
+||rtb.julang.taobao.com^
 ||rtlog22-normal-alisg.tiktokv.com^
 ||rtlog3-applog-hl.amemv.com^
 ||rumt-zh.com^
@@ -738,6 +753,7 @@
 ||sp1.baidu.com^
 ||sp2.baidu.com^
 ||spider-tracker.xiaohongshu.com^
+||splash-online-decision.xiaohongshu.com^
 ||splash.soulapp.cn^
 ||spread.wtzw.com^
 ||sq.bls.mdt.qq.com^
@@ -746,6 +762,7 @@
 ||stat.mail.163.com^
 ||stat.moji.com^
 ||stat.youpin.mi.com^
+||stat2.openinstall.io^
 ||stat6.y.qq.com^
 ||static-s.iqiyi.com^
 ||static.cloudflareinsights.com^
@@ -797,12 +814,15 @@
 ||tpstelemetry.tencent.com^
 ||trace.rtbasia.com^
 ||tracelog-debug.yunxish.com^
+||track.callget.cn^
 ||track.lc.quark.cn^
 ||track.merchat.cn^
 ||track.uc.cn^
 ||tracker.metricool.com^
 ||tracker.soulapp.cn^
 ||trackercollect.ddxq.mobi^
+||tracking-data.platform.hihonorcloud.com^
+||tracking.ads.honor.com^
 ||tracking.miui.com^
 ||tsis-ipv6.jpush.cn^
 ||tsis.jpush.cn^
@@ -845,6 +865,7 @@
 ||vhdezl.launches.appsflyersdk.com^
 ||vhdezl.skadsdkless.appsflyersdk.com^
 ||vi.l.qq.com^
+||videocloud.cn-hangzhou.dualstack.log.aliyuncs.com^
 ||vmat.gtimg.com^
 ||volceapplog.com^
 ||vs4.hzcm.u3.ucweb.com^
@@ -864,6 +885,7 @@
 ||win.gdt.qq.com^
 ||wup.imtt.qq.com^
 ||www.google-analytics.com^
+||www.pangolin-dsp-toutiao.com^
 ||www.qchannel01.cn^
 ||www.shouyou.xy.com^
 ||wxa.wxs.qq.com^
@@ -872,9 +894,11 @@
 ||xlog.jd.com^
 ||xpis-xcdn.youku.com^
 ||yingt.fun^
+||yktd.m.cn.miaozhen.com^
 ||yoda.kwd.inkuai.com^
 ||yumao.puata.info^
 ||yun-hl.3g.qq.com^
+||yybaddsp.3g.qq.com^
 ||zconfig.alibabausercontent.com^
 ||zexudnxmjadlzg.com^
 ||zhihu-web-analytics.zhihu.com^
