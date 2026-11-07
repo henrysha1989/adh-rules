@@ -41,6 +41,20 @@
 ! ── 放行规则（2026-09-30 从 ADH user_rules 搬来，共 152 条，全是 $important）──
 !    必须 $important：实测普通 @@ 压不住订阅大表（Cats-Team 19 万 / Advertising 28 万条）。
 !    与起底拦截重叠的域名不在此列（拦截优先）。
+!
+! ── 2026-11-07 owner 批准：抖音/红果误伤复核（memory/2026-11-07.md）──
+!    queniuck = 字节 CNAME 落地域（ADH 按 CNAME 链过滤）；gecko/tnc = 配置与网络调度；
+!    video-cn / fqnovelpic = 被公共清单误收的视频/内容域。必须 $important 才压得住订阅大表。
+@@||queniuck.com^$important
+@@||gecko.zijieapi.com^$important
+@@||tnc0-alisc1.zijieapi.com^$important
+@@||tnc0-aliec2.zijieapi.com^$important
+@@||tnc3-alisc1.zijieapi.com^$important
+@@||tnc3-aliec2.zijieapi.com^$important
+@@||tnc3-bjlgy.zijieapi.com^$important
+@@||tnc3-bjlgy.snssdk.com^$important
+@@||video-cn.snssdk.com^$important
+@@||fqnovelpic.com^$important
 @@||qrstuvwxyzab.com^$important
 @@||-mgsdk-sign.byteimg.com^$important
 @@||aaplimg.com^$important
