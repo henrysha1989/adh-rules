@@ -1,4 +1,4 @@
-! updated: 2026-11-07 08:04 +0800
+! updated: 2026-11-07 11:44 +0800
 ! ==========================================================
 ! ADH 自定义拦截规则（AdGuard 语法）—— 由 adh_gist_sync.py 自动维护
 ! ==========================================================
@@ -217,6 +217,7 @@
 ||adm-smc-cn.heytapmobi.com^
 ||adnxs-simple.com^
 ||adpai.thepaper.cn^
+||ads-api.twitter.com^
 ||ads-drcn.platform.hihonorcloud.com^
 ||ads-i1.xhscdn.com^
 ||ads-i10.xhscdn.com^
@@ -272,6 +273,7 @@
 ||analytics.oceanengine.com^
 ||analytics.pgncs.notion.so^
 ||analytics.soulapp.cn^
+||analytics.twitter.com^
 ||anti-sdk-ccs-pre.m.jd.com^
 ||anti-sdk-report.m.jd.com^
 ||apd-pcdnwxnat.teg.tencent-cloud.net^
@@ -431,6 +433,7 @@
 ||exp.notion.so^
 ||ext.baidu.com^
 ||fclick.baidu.com^
+||fcmatch.youtube.com^
 ||feedback-c.zijieapi.com^
 ||feedguess.meituan.com^
 ||file.daihuo.qq.com^
@@ -450,7 +453,6 @@
 ||gator.volces.com^
 ||gd-stats.jpush.cn^
 ||gdfp.gifshow.com^
-||gecko.zijieapi.com^
 ||googleads.g.doubleclick.net^
 ||growth-img.xhscdn.com^
 ||guid.tpns.tencent.com^
@@ -491,6 +493,7 @@
 ||increase-openapi.soulapp.cn^
 ||info.3g.qq.com^
 ||intake-analytics.wikimedia.org^
+||ipm.atm.youku.com^
 ||ipv4.gdt.qq.com^
 ||ipv6.shuzilm.cn^
 ||ir-sdk.dun.163.com^
@@ -631,6 +634,7 @@
 ||nsp-logservice-weardevice-p51-drcn.obs.cn-north-2.myhuaweicloud.com^
 ||odf.app-ads-services.com^
 ||odm.app-ads-services.com^
+||ogads-pa.clients6.google.com^
 ||omgid.qq.com^
 ||omgup.xiaojukeji.com^
 ||omgup1.xiaojukeji.com^
@@ -693,7 +697,6 @@
 ||qmad.qimao.com^
 ||qqdata.ab.qq.com^
 ||qsb.browser.miui.com^
-||queniuck.com^
 ||qzs.gdtimg.com^
 ||r.mail.163.com^
 ||rcv.aiclk.com^
@@ -777,6 +780,7 @@
 ||store.is.autonavi.com^
 ||t-cfg.wtzw.com^
 ||t-dsp.pinduoduo.com^
+||t.e.x.com^
 ||t2.xiaohongshu.com^
 ||t7z.cupid.iqiyi.com^
 ||ta.pinduoduo.com^
@@ -804,13 +808,7 @@
 ||tk2.vlion.cn^
 ||tmead.y.qq.com^
 ||tnc-boot.tiktokv.com^
-||tnc0-aliec2.zijieapi.com^
-||tnc0-alisc1.zijieapi.com^
 ||tnc0-normal-alisg.tiktokv.com^
-||tnc3-aliec2.zijieapi.com^
-||tnc3-alisc1.zijieapi.com^
-||tnc3-bjlgy.snssdk.com^
-||tnc3-bjlgy.zijieapi.com^
 ||tobapplog.ctobsnssdk.com^
 ||toblog.ctobsnssdk.com^
 ||tools.3g.qq.com^
