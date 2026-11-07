@@ -1,4 +1,4 @@
-! updated: 2026-11-06 16:05 +0800
+! updated: 2026-11-07 08:04 +0800
 ! ==========================================================
 ! ADH 自定义拦截规则（AdGuard 语法）—— 由 adh_gist_sync.py 自动维护
 ! ==========================================================
@@ -225,6 +225,7 @@
 ||ads-i8.xhscdn.com^
 ||ads-img-al.xhscdn.com^
 ||ads-img-bak.xhscdn.com^
+||ads-shopping.shouqianba.com^
 ||ads-video-al.xhscdn.com^
 ||ads-vp5.xhscdn.com^
 ||ads.cup.com.cn^
@@ -303,6 +304,7 @@
 ||applog.snssdk.com^
 ||applog.uc.cn^
 ||appsupport.qq.com^
+||as-group.cn-hangzhou.log.aliyuncs.com^
 ||as.xiaohongshu.com^
 ||aspect-upush.umeng.com^
 ||astrategy.beacon.qq.com^
@@ -591,6 +593,7 @@
 ||mi.gdt.qq.com^
 ||minigame5-normal-hl.zijieapi.com^
 ||minigame5-normal-lq.zijieapi.com^
+||mk-group.cn-hangzhou.log.aliyuncs.com^
 ||mkt-cdn.wtzw.com^
 ||mkt.wtzw.com^
 ||mktm.jd.com^
@@ -616,6 +619,7 @@
 ||msch.f.360.cn^
 ||msg.qy.net^
 ||msg.umengcloud.com^
+||msp-group.cn-hangzhou.log.aliyuncs.com^
 ||mssdk-bu.bytedance.com^
 ||mssdk.volces.com^
 ||mssdk3-normal-lq.zijieapi.com^
