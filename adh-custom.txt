@@ -1,4 +1,4 @@
-! updated: 2026-11-08 08:03 +0800
+! updated: 2026-11-08 13:30 +0800
 ! ==========================================================
 ! ADH 自定义拦截规则（AdGuard 语法）—— 由 adh_gist_sync.py 自动维护
 ! ==========================================================
@@ -188,6 +188,15 @@
 @@||x.com^$important
 @@||youtube.com^$important
 @@||yunmart.com^$important
+!
+! ── 2026-11-08 owner 批准：与小火箭自建表对齐（陌陌/探探遗漏域；memory/2026-11-08.md）──
+||ad-screen-api.immomo.com^
+||app-log.immomo.com^
+||app-log-lab.tantanapp.com^
+||client-monitor.tantanapp.com^
+||io-sm-log.tantanapp.com^
+! api.immomo.com = 陌陌主 API，小火箭 2026-10-22 因「网络异常」整域放行（big list 误收），ADH 侧同步放行
+@@||api.immomo.com^$important
 !
 ! ===== 自动收集（以下内容由脚本管理，勿手改）=====
 ||0kkkkkt.com^
