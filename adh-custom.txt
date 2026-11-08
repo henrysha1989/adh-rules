@@ -1,4 +1,4 @@
-! updated: 2026-11-08 13:30 +0800
+! updated: 2026-11-08 14:20 +0800
 ! ==========================================================
 ! ADH 自定义拦截规则（AdGuard 语法）—— 由 adh_gist_sync.py 自动维护
 ! ==========================================================
@@ -198,6 +198,49 @@
 ! api.immomo.com = 陌陌主 API，小火箭 2026-10-22 因「网络异常」整域放行（big list 误收），ADH 侧同步放行
 @@||api.immomo.com^$important
 !
+! ── 2026-11-08 owner 批准 A 档：功能域误伤放行 41 条（rule-mining 护栏；来源 ops/adh/guard-release-candidates-20261108.tsv）──
+@@||amdc-sibling.alipay.com.cn^$important
+@@||amdc.alipay.com^$important
+@@||api-dll.dutils.com^$important
+@@||api-exc.dutils.com^$important
+@@||api-fc.dutils.com^$important
+@@||api-fd.dutils.com^$important
+@@||api-gd.dutils.com^$important
+@@||api-normal-m.amemv.com^$important
+@@||api-push.meizu.com^$important
+@@||api.device.xiaomi.net^$important
+@@||api.g.micloud.xiaomi.net^$important
+@@||api.installer.xiaomi.com^$important
+@@||api.kuaishouzt.com^$important
+@@||api.sec.miui.com^$important
+@@||api.tw06.xlmc.sec.miui.com^$important
+@@||api.verify.mob.com^$important
+@@||api.yunxish.com^$important
+@@||app.chat.xiaomi.net^$important
+@@||config.cmpassport.com^$important
+@@||config2.cmpassport.com^$important
+@@||fp-it.fengkongcloud.com^$important
+@@||httpdns.bcelive.com^$important
+@@||httpdns.platform.dbankcloud.cn^$important
+@@||httpdns.platform.dbankcloud.com^$important
+@@||im-x.jd.com^$important
+@@||log.wechatpay.cn^$important
+@@||log2.cmpassport.com^$important
+@@||loggw-ex.alipay.com^$important
+@@||mdap.alipay.com^$important
+@@||msg.cmpassport.com^$important
+@@||onekey1.cmpassport.com^$important
+@@||resolver.msg.xiaomi.net^$important
+@@||t2.fancyapi.com^$important
+@@||t2.xiaohongshu.com^$important
+@@||tdid.m.qq.com^$important
+@@||timon.zijieapi.com^$important
+@@||user-ipv6.jpush.cn^$important
+@@||user.jpush.cn^$important
+@@||wap.cmpassport.com^$important
+@@||www.cmpassport.com^$important
+@@||xy-miniapp-pay-group.cn-hangzhou.log.aliyuncs.com^$important
+!
 ! ===== 自动收集（以下内容由脚本管理，勿手改）=====
 ||0kkkkkt.com^
 ||120-223-160-80-ad84f7cd.bvmlt.top^
@@ -284,8 +327,6 @@
 ||alimama.com^
 ||als.baidu.com^
 ||amap-aos-info-nogw.amap.com^
-||amdc-sibling.alipay.com.cn^
-||amdc.alipay.com^
 ||amdcopen.m.taobao.com^
 ||amdcopen.m.umeng.com^
 ||an.kejet.net^
@@ -311,19 +352,12 @@
 ||api-nps.wtzw.com^
 ||api.ad.xiaomi.com^
 ||api.afdback.ppsimg.com^
-||api.device.xiaomi.net^
 ||api.df.mob.com^
 ||api.e.kuaishou.com^
-||api.g.micloud.xiaomi.net^
 ||api.hybrid.xiaomi.com^
-||api.installer.xiaomi.com^
 ||api.kwaizt.com^
 ||api.ocpx.ydmob.com^
-||api.sec.miui.com^
 ||api.share.mob.com^
-||api.tw06.xlmc.sec.miui.com^
-||api.verify.mob.com^
-||api.yunxish.com^
 ||apikey.map.qq.com^
 ||apm-fe.xiaohongshu.com^
 ||apm-native.xiaohongshu.com^
@@ -407,9 +441,7 @@
 ||cnlogs.umeng.com^
 ||cnlogs.umengcloud.com^
 ||config-ipv6.jpush.cn^
-||config.cmpassport.com^
 ||config.jpush.cn^
-||config2.cmpassport.com^
 ||cosmos-compass-api.immomo.com^
 ||count.mail.163.com^
 ||countly.mail.163.com^
@@ -477,7 +509,6 @@
 ||foo-applog-bar.probe-9f3a.com^
 ||fourier.alibaba.com^
 ||fourier.taobao.com^
-||fp-it.fengkongcloud.com^
 ||fp.tongdun.net^
 ||frog.yuanfudao.com^
 ||fshows-ecs-pro.cn-hangzhou.log.aliyuncs.com^
@@ -509,7 +540,6 @@
 ||hotchat-im.iqiyi.com^
 ||hpd.baidu.com^
 ||httpdns.baidubce.com^
-||httpdns.bcelive.com^
 ||httpdns.kuaishou.com^
 ||httpdns.proxima.netease.com^
 ||httpdns.volces.com^
@@ -524,7 +554,6 @@
 ||idm.iot.mi.com^
 ||idx.m.hub.sandai.net^
 ||ilce.alicdn.com^
-||im-x.jd.com^
 ||image-ad.sm.cn^
 ||images.pinduoduo.com^
 ||img2.360buyimg.com^
@@ -579,7 +608,6 @@
 ||log.snssdk.com^
 ||log.soulapp.cn^
 ||log.tbs.qq.com^
-||log.wechatpay.cn^
 ||log.weixin.qq.com^
 ||log.zijieapi.com^
 ||log0-misc-hl.amemv.com^
@@ -587,7 +615,6 @@
 ||log0-normal-hl.toutiaoapi.com^
 ||log0-normal-lq.toutiaoapi.com^
 ||log1.cmpassport.com^
-||log2.cmpassport.com^
 ||log22-normal-alisg.tiktokv.com^
 ||log3-applog-lf.fqnovel.com^
 ||log3-normal-hl.toutiaoapi.com^
@@ -599,7 +626,6 @@
 ||logan-rtl.dreport.meituan.net^
 ||logbk.amemv.com^
 ||logger.qmai.cn^
-||loggw-ex.alipay.com^
 ||logrcv.yunxish.com^
 ||logs.amap.com^
 ||logs.game.qq.com^
@@ -839,8 +865,6 @@
 ||t-cfg.wtzw.com^
 ||t-dsp.pinduoduo.com^
 ||t.gdt.qq.com^
-||t2.fancyapi.com^
-||t2.xiaohongshu.com^
 ||t7z.cupid.iqiyi.com^
 ||ta.pinduoduo.com^
 ||tab.volces.com^
@@ -852,7 +876,6 @@
 ||tbdu.sigmob.cn^
 ||tcbox.baidu.com^
 ||td-nexus.advlion.com^
-||tdid.m.qq.com^
 ||techain.baidu.com^
 ||telecom.shuzilm.cn^
 ||telemetry.proton.me^
@@ -863,7 +886,6 @@
 ||tianwenca.com^
 ||tiga-release-dc.m.taobao.com^
 ||time.video.ptqy.gitv.tv^
-||timon.zijieapi.com^
 ||tjjs.wtzw.com^
 ||tk2.vlion.cn^
 ||tm.sigmob.cn^
@@ -920,8 +942,6 @@
 ||update.avlyun.sec.miui.com^
 ||uranus.jd.com^
 ||us.l.qq.com^
-||user-ipv6.jpush.cn^
-||user.jpush.cn^
 ||usr-api.yunxish.com^
 ||utoken.umeng.com^
 ||uxip.meizu.com^
@@ -968,7 +988,6 @@
 ||wxsmw.wxs.qq.com^
 ||xlog.jd.com^
 ||xpis-xcdn.youku.com^
-||xy-miniapp-pay-group.cn-hangzhou.log.aliyuncs.com^
 ||yingt.fun^
 ||yktd.m.cn.miaozhen.com^
 ||yoda.kwd.inkuai.com^
